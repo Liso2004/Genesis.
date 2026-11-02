@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc4fcff8efcbf14b96491f160bebd6f, type: 3}
+  m_Name: God-laughing-trickster
+  m_EditorClassIdentifier: 
+  godId: laughing-trickster
+  displayName: The Laughing Trickster
+  description: Chaos, Luck, Unexpected Outcomes
+  presentationColor: {r: 0, g: 1, b: 1, a: 1}
+  affinities:
+  - domain: {fileID: 11400000, guid: 8d62a80c54626f1429f9e5243dc400d7, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: 588c5343d3d01df4fb375ec2f8e20a30, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: 8dce6eed8100f814c864a6f12375811d, type: 2}
+    weight: 1
+  favorPerResonance: 1
+  maximumResonance: 100
+  maximumFavor: 1000
+  blessingFavorThreshold: 30
+  blessing: {fileID: 0}

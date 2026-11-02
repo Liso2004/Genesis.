@@ -1,0 +1,21 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":\"{ crouch = True, height = 1,25, center = (0.00, 0.63, 0.00), position = (44.56, -2.13, 2.17), ground = True, vertical = -5, speed = 0,799912, animCrouch = True, state = -2015693266, head = (44.70, -1.08, 2.58), rootMotion = False, camera = (44.39, -1.03, 0.26) }\",\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": "{ crouch = True, height = 1,25, center = (0.00, 0.63, 0.00), position = (44.56, -2.13, 2.17), ground = True, vertical = -5, speed = 0,799912, animCrouch = True, state = -2015693266, head = (44.70, -1.08, 2.58), rootMotion = False, camera = (44.39, -1.03, 0.26) }",
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

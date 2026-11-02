@@ -1,0 +1,80 @@
+{
+  "before": {
+    "items": [],
+    "equipped": false,
+    "uses": 0,
+    "feedback": "E interacts. Left click practices at the dummy. C toggles crouch.",
+    "crouch": false,
+    "anim": false
+  },
+  "pickup-iron-swordReachable": true,
+  "pickup-iron-sword": {
+    "items": [
+      "iron-sword"
+    ],
+    "equipped": false,
+    "uses": 0,
+    "feedback": "Collected Iron Sword.",
+    "crouch": false,
+    "anim": false
+  },
+  "pickup-blackwood-shieldReachable": true,
+  "pickup-blackwood-shield": {
+    "items": [
+      "iron-sword",
+      "blackwood-shield"
+    ],
+    "equipped": false,
+    "uses": 0,
+    "feedback": "Collected Blackwood Shield.",
+    "crouch": false,
+    "anim": false
+  },
+  "equipmentReachable": true,
+  "equipment": {
+    "items": [
+      "iron-sword",
+      "blackwood-shield"
+    ],
+    "equipped": true,
+    "uses": 0,
+    "feedback": "Equipped owned items. Left click near the dummy to practice.",
+    "crouch": false,
+    "anim": false
+  },
+  "dummyReachable": true,
+  "practice": {
+    "items": [
+      "iron-sword",
+      "blackwood-shield"
+    ],
+    "equipped": true,
+    "uses": 1,
+    "feedback": "Varied sword practice: Swordsmanship and Warfare progressed.",
+    "crouch": false,
+    "anim": false
+  },
+  "crouched": {
+    "items": [
+      "iron-sword",
+      "blackwood-shield"
+    ],
+    "equipped": true,
+    "uses": 1,
+    "feedback": "Varied sword practice: Swordsmanship and Warfare progressed.",
+    "crouch": true,
+    "anim": true
+  },
+  "standing": {
+    "items": [
+      "iron-sword",
+      "blackwood-shield"
+    ],
+    "equipped": true,
+    "uses": 1,
+    "feedback": "Varied sword practice: Swordsmanship and Warfare progressed.",
+    "crouch": false,
+    "anim": false
+  },
+  "passed": true
+}

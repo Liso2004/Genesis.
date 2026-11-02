@@ -1,0 +1,26 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"narrowPassageTraversed\":true,\"narrowEnd\":\"(50.00, -2.13, 6.27)\",\"stairsClimbed\":false,\"stairTop\":\"(35.00, -2.07, -0.41)\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "narrowPassageTraversed": true,
+          "narrowEnd": "(50.00, -2.13, 6.27)",
+          "stairsClimbed": false,
+          "stairTop": "(35.00, -2.07, -0.41)"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

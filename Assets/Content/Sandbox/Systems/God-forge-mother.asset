@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc4fcff8efcbf14b96491f160bebd6f, type: 3}
+  m_Name: God-forge-mother
+  m_EditorClassIdentifier: 
+  godId: forge-mother
+  displayName: The Forge-Mother
+  description: Creation, Transformation, Resistance
+  presentationColor: {r: 0, g: 1, b: 1, a: 1}
+  affinities:
+  - domain: {fileID: 11400000, guid: bbebdb2f19ddbb447b1b3c2bda212a68, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: 577b7adfeab7f8b45989b6bba5dcf844, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: d4ae45fbf15e3194f8287a06c87e6963, type: 2}
+    weight: 1
+  favorPerResonance: 1
+  maximumResonance: 100
+  maximumFavor: 1000
+  blessingFavorThreshold: 30
+  blessing: {fileID: 0}

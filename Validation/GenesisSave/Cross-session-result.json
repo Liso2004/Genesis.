@@ -1,0 +1,22 @@
+{
+  "freshStartEmpty": true,
+  "loaded": true,
+  "message": "Checkpoint loaded.",
+  "exactCheckpointMatch": true,
+  "owned": 10,
+  "collectedPickups": 10,
+  "uses": 3,
+  "blessing": true,
+  "replayedGameplayEvents": 0,
+  "equipped": [
+    "iron-sword",
+    "blackwood-shield",
+    "training-head",
+    "training-chest",
+    "training-hands",
+    "training-legs",
+    "training-cape"
+  ],
+  "avatar": true,
+  "rootMotion": false
+}

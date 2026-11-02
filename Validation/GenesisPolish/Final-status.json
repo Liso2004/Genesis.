@@ -1,0 +1,16 @@
+{
+  "scene": "Assets/Scenes/Sandbox/Sandbox.unity",
+  "saved": true,
+  "playing": false,
+  "compiling": false,
+  "consoleErrors": 0,
+  "consoleWarnings": 0,
+  "consoleLogs": 7,
+  "missingScripts": 0,
+  "controller": "Assets/Genesis/Character/Animatinos/PlayerAnimator.controller",
+  "avatar": "Assets/Synty/PolygonFantasyHeroCharacters/Models/ModularCharacters.fbx",
+  "validHuman": true,
+  "rootMotion": false,
+  "canonicalPlayer": "Assets/Genesis/Character/Prefabs/GenesisPlayer.prefab",
+  "creationPreset": "SandboxStartingProfile"
+}

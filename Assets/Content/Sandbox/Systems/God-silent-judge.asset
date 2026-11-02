@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc4fcff8efcbf14b96491f160bebd6f, type: 3}
+  m_Name: God-silent-judge
+  m_EditorClassIdentifier: 
+  godId: silent-judge
+  displayName: The Silent Judge
+  description: Justice, Consequence, Balance
+  presentationColor: {r: 0, g: 1, b: 1, a: 1}
+  affinities:
+  - domain: {fileID: 11400000, guid: 98b663bbdfa306c49825d5e5c9d6789b, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: 03f5a5647a28d2e49891cd2668d26ef3, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: 175bf08007e8f194682997359f011ca7, type: 2}
+    weight: 1
+  favorPerResonance: 1
+  maximumResonance: 100
+  maximumFavor: 1000
+  blessingFavorThreshold: 30
+  blessing: {fileID: 0}

@@ -1,0 +1,56 @@
+{
+  "locomotion": [
+    {
+      "speed": 0.0,
+      "parameter": 0.0,
+      "boneAngle": 0.6667568,
+      "clips": [
+        "HumanM@Idle01"
+      ]
+    },
+    {
+      "speed": 1.60000539,
+      "parameter": 1.60000539,
+      "boneAngle": 6.15390635,
+      "clips": [
+        "HumanM@Walk01_Forward",
+        "HumanM@Run01_Forward"
+      ]
+    },
+    {
+      "speed": 4.00000525,
+      "parameter": 4.00000525,
+      "boneAngle": 45.19821,
+      "clips": [
+        "HumanM@Run01_Forward",
+        "HumanM@Sprint01_Forward"
+      ]
+    },
+    {
+      "speed": 5.99998856,
+      "parameter": 5.99998856,
+      "boneAngle": 83.75857,
+      "clips": [
+        "HumanM@Run01_Forward",
+        "HumanM@Sprint01_Forward"
+      ]
+    },
+    {
+      "speed": 0.0,
+      "parameter": 0.0,
+      "boneAngle": 1.3364507,
+      "clips": [
+        "HumanM@Idle01"
+      ]
+    }
+  ],
+  "crouch": {
+    "motor": true,
+    "parameter": true,
+    "height": 1.25,
+    "clips": [
+      "HumanM@Crouch01_Idle"
+    ]
+  },
+  "rootMotion": false
+}

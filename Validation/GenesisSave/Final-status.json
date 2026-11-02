@@ -1,0 +1,13 @@
+{
+  "scene": "Assets/Scenes/Sandbox/Sandbox.unity",
+  "saved": true,
+  "playing": false,
+  "compiling": false,
+  "errors": 0,
+  "warnings": 0,
+  "missingScripts": 0,
+  "catalog": "Assets/Content/Creation/SandboxSaveCatalog.asset",
+  "stations": 17,
+  "saveKey": 286,
+  "loadKey": 290
+}

@@ -1,0 +1,92 @@
+{
+  "scene": "Assets/Scenes/Sandbox/Sandbox.unity",
+  "dirty": false,
+  "playerPrefab": "Assets/Genesis/Character/Prefabs/GenesisPlayer.prefab",
+  "humanoid": true,
+  "avatarValid": true,
+  "avatar": "Assets/PolygonDungeonRealms/Models/Characters/Characters.fbx",
+  "controller": "Assets/Genesis/Character/Animatinos/PlayerAnimator.controller",
+  "rootMotion": false,
+  "stations": [
+    {
+      "TargetId": "pickup-ash-kin-ember",
+      "DisplayName": "Collect Ash-Kin's Ember",
+      "kind": "Pickup"
+    },
+    {
+      "TargetId": "observation-0",
+      "DisplayName": "Ancient stone / observation",
+      "kind": "Observation"
+    },
+    {
+      "TargetId": "pickup-healing-potion",
+      "DisplayName": "Collect Healing Potion",
+      "kind": "Pickup"
+    },
+    {
+      "TargetId": "pickup-blackwood-shield",
+      "DisplayName": "Collect Blackwood Shield",
+      "kind": "Pickup"
+    },
+    {
+      "TargetId": "observation-2",
+      "DisplayName": "Kingdom banner / observation",
+      "kind": "Observation"
+    },
+    {
+      "TargetId": "equipment",
+      "DisplayName": "Equipment stand",
+      "kind": "Equipment"
+    },
+    {
+      "TargetId": "observer-shrine",
+      "DisplayName": "Observer / claim earned Insight",
+      "kind": "Shrine"
+    },
+    {
+      "TargetId": "authority-gate",
+      "DisplayName": "Sovereign Servant / check requirements",
+      "kind": "Authority"
+    },
+    {
+      "TargetId": "pickup-soul-coins",
+      "DisplayName": "Collect Soul Coins",
+      "kind": "Pickup"
+    },
+    {
+      "TargetId": "pickup-iron-sword",
+      "DisplayName": "Collect Iron Sword",
+      "kind": "Pickup"
+    },
+    {
+      "TargetId": "training-dummy",
+      "DisplayName": "Sword practice / left click",
+      "kind": "Training"
+    },
+    {
+      "TargetId": "observation-1",
+      "DisplayName": "Crystal formation / observation",
+      "kind": "Observation"
+    }
+  ],
+  "npcCount": 4,
+  "playerComponents": [
+    "Transform",
+    "GenesisActor",
+    "CharacterController",
+    "PlayerController",
+    "PlayerMovementInput",
+    "PlayerAnimation",
+    "SkillSystem",
+    "NPC_Setup",
+    "ActorInventory",
+    "SkillDomainSystem",
+    "AuthoritySystem",
+    "GodResonanceSystem",
+    "EquipmentPresentation",
+    "SandboxActor",
+    "SandboxInteractor",
+    "SandboxFeedback"
+  ],
+  "missingScripts": 0
+}

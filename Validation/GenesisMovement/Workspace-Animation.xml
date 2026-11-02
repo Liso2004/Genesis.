@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-20 18:37:27Z" end-time="2026-09-20 18:37:27Z" duration="0,1501917">
+  <test-suite type="TestSuite" id="1021" name="Genesis" fullname="Genesis" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-20 18:37:27Z" end-time="2026-09-20 18:37:27Z" duration="0.150192" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1015" name="Genesis.Character.Tests.dll" fullname="C:/Users/lisow/Genesis/Library/ScriptAssemblies/Genesis.Character.Tests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-20 18:37:27Z" end-time="2026-09-20 18:37:27Z" duration="0.144053" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="27664" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1016" name="Genesis" fullname="Genesis" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-20 18:37:27Z" end-time="2026-09-20 18:37:27Z" duration="0.143171" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1017" name="Tests" fullname="Genesis.Tests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-20 18:37:27Z" end-time="2026-09-20 18:37:27Z" duration="0.142765" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="PlayerAnimationTests" fullname="Genesis.Tests.PlayerAnimationTests" classname="Genesis.Tests.PlayerAnimationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-20 18:37:27Z" end-time="2026-09-20 18:37:27Z" duration="0.141445" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="JumpFallLandAndLedgeTransitionsRecoverWithoutLoops" fullname="Genesis.Tests.PlayerAnimationTests.JumpFallLandAndLedgeTransitionsRecoverWithoutLoops" methodname="JumpFallLandAndLedgeTransitionsRecoverWithoutLoops" classname="Genesis.Tests.PlayerAnimationTests" runstate="Runnable" seed="1666782100" result="Passed" start-time="2026-09-20 18:37:27Z" end-time="2026-09-20 18:37:27Z" duration="0.052525" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="MotorMovementDrivesAnimatorThroughPresentation" fullname="Genesis.Tests.PlayerAnimationTests.MotorMovementDrivesAnimatorThroughPresentation" methodname="MotorMovementDrivesAnimatorThroughPresentation" classname="Genesis.Tests.PlayerAnimationTests" runstate="Runnable" seed="2075478797" result="Passed" start-time="2026-09-20 18:37:27Z" end-time="2026-09-20 18:37:27Z" duration="0.047154" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="PrefabRetargetsKevinClipsWithoutMovingActorRoot" fullname="Genesis.Tests.PlayerAnimationTests.PrefabRetargetsKevinClipsWithoutMovingActorRoot" methodname="PrefabRetargetsKevinClipsWithoutMovingActorRoot" classname="Genesis.Tests.PlayerAnimationTests" runstate="Runnable" seed="1802959320" result="Passed" start-time="2026-09-20 18:37:27Z" end-time="2026-09-20 18:37:27Z" duration="0.027720" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/lisow/AppData/LocalLow/DefaultCompany/Genesis\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

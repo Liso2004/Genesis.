@@ -1,0 +1,444 @@
+# PROJECT GENESIS — PDF & IMAGE PRODUCTION LIST
+
+---
+
+## PDF DOCUMENT
+
+**Complete Design Bible** — Download the full compilation:
+
+[**Download Project Genesis — Complete Design Bible v1.0.pdf**](#)
+
+*(The PDF includes all content from this document: Executive Summary, Design Constitution, Cosmology, World Map, Dungeon Design, Skills System, 100+ Unique Skills, Sin/Holy Series, Pantheon, Races, Factions, Event Chains, Director System, and Implementation Plan.)*
+
+---
+
+# IMAGE PRODUCTION LIST
+
+## Priority Level Legend
+
+| Level | Description | Urgency |
+|-------|-------------|---------|
+| **🔴 CRITICAL** | Required for vertical slice implementation | Immediate |
+| **🟡 HIGH** | Needed for gameplay and UI clarity | Phase 1 |
+| **🟢 MEDIUM** | Needed for world building and lore | Phase 2 |
+| **🔵 LOW** | Polish and marketing material | Future |
+
+---
+
+## SECTION 1: WORLD MAP & LOCATIONS
+
+### 1.1 World Map Images
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| W1 | **Continent Map** | Full map of Aethel with all regions labeled | Game map, loading screens, lore book | 🔴 CRITICAL | Need high-res with named locations |
+| W2 | **Region Maps** | Individual maps for each region (Frostmarch, Heartlands, Southern Wild, Eastern Isles, Sundered Wastes) | Fast travel, regional UI | 🟡 HIGH | Should show settlements, roads, landmarks |
+| W3 | **Political Map** | Faction territories overlayed on continent map | Quest UI, faction screen | 🟡 HIGH | Color-coded by faction |
+| W4 | **Dungeon Cross-Section** | Vertical cutaway showing all 70+ floors and strata | Loading screens, lore | 🟢 MEDIUM | Show floor ranges and monster types |
+| W5 | **Floor Map Examples** | Floor 1 (The Gauntlet), Floor 3 (Clearwater Siege), Floor 10 (Gatekeeper's Arena) | Level design, tutorials | 🟡 HIGH | Top-down maps with key locations marked |
+
+---
+
+### 1.2 Settlement Images
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| W6 | **Aethelgard Skyline** | Capital city view from distance | Loading screens, marketing | 🟡 HIGH | Show white-stone walls, cathedral spires |
+| W7 | **Aethelgard Street** | Bustling street with NPCs, shops, cathedral | In-game environment | 🟢 MEDIUM | Medieval fantasy architecture |
+| W8 | **Millford Overview** | Border town with palisade walls, ash falling | In-game environment | 🔴 CRITICAL | Show Blackwood walls, blightmarsh in background |
+| W9 | **Millford Fort** | Captain Vex's keep | Quest location | 🟡 HIGH | Show defensive position, graveyard |
+| W10 | **Blightmarsh Landscape** | Swamp with black trees, ash pools, mist | In-game environment | 🔴 CRITICAL | Eerie, dangerous atmosphere |
+| W11 | **Outer Fissure / Last Light** | Dungeon entrance with tent city, Black Gate | In-game environment | 🔴 CRITICAL | Obsidian cliffs, black doors, camp |
+| W12 | **The Oasis (Floor 18)** | Underground forest with crystalline sky | In-game environment | 🟡 HIGH | Beautiful, safe, peaceful |
+| W13 | **Frostholme** | Dwarven mountain city | In-game environment | 🟢 MEDIUM | Carved into mountain, blue glow |
+| W14 | **Silk Spires** | Weaver city with silk towers | In-game environment | 🟢 MEDIUM | Geometric, elegant, spider motifs |
+| W15 | **Lotus Gardens** | Ash-Kin sanctuary with floating structures | In-game environment | 🔵 LOW | Serene, melancholic, ethereal |
+
+---
+
+## SECTION 2: THE DUNGEON
+
+### 2.1 Strata Environments
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| D1 | **The Shallows (1-10)** | Stone corridors, blue walls, dim torchlight | In-game environment | 🔴 CRITICAL | First impression of dungeon |
+| D2 | **The Mist (11-20)** | Fog-shrouded caverns, green walls, shifting passages | In-game environment | 🟡 HIGH | Eerie, disorienting |
+| D3 | **The Crucible (21-35)** | Volcanic chambers, lava rivers, red glow | In-game environment | 🟢 MEDIUM | Hellish, dangerous |
+| D4 | **The Depths (36-50)** | Bioluminescent fungal forests, underground rivers | In-game environment | 🟢 MEDIUM | Beautiful but deadly |
+| D5 | **The Abyss (51-70)** | Reality-warping spaces, gravity anomalies | In-game environment | 🟢 MEDIUM | Abstract, mind-bending |
+| D6 | **The Core (71+)** | Unknown—heart of the dungeon | Concept art | 🔵 LOW | Mystery box |
+
+---
+
+### 2.2 Floor Guardians (Monster Rex)
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| D7 | **The Goliath** | 30-foot giant of black stone and bone, single burning eye | Boss encounter | 🔴 CRITICAL | Most important boss for vertical slice |
+| D8 | **The Gatekeeper (Floor 17)** | Massive giant guarding Crucible entrance | Boss concept | 🟡 HIGH | Smaller than Goliath, different design |
+| D9 | **The Serpent King (Floor 27)** | Twin-headed water serpent | Boss concept | 🟢 MEDIUM | Aquatic boss |
+| D10 | **The Skeleton Emperor (Floor 37)** | Giant skeletal king with spectral soldiers | Boss concept | 🟢 MEDIUM | Undead army boss |
+| D11 | **The Balor (Floor 49)** | Behemoth demon | Boss concept | 🟢 MEDIUM | Endgame boss |
+
+---
+
+### 2.3 Floor-Specific Scenes
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| D12 | **Floor 1 — Arrow Gauntlet** | Corridor with arrows firing, pressure plate, key | In-game environment | 🔴 CRITICAL | Tutorial floor |
+| D13 | **Floor 1 Boss — Arrow Warden** | Skeleton archer boss with bow | Boss concept | 🟡 HIGH | Teach pattern recognition |
+| D14 | **Floor 2 — Memory Crucible** | Black marble chamber, red mist, hallucinations | In-game environment | 🟡 HIGH | Psychological horror |
+| D15 | **Floor 2 Boss — Memory Eater** | Bulbous creature reflecting the player | Boss concept | 🟡 HIGH | Emotional combat |
+| D16 | **Floor 3 — Clearwater Village** | Small village under siege | In-game environment | 🔴 CRITICAL | NPC protection mechanics |
+| D17 | **Floor 3 Boss — Goblin King** | Massive goblin on ram | Boss concept | 🟡 HIGH | Siege boss |
+| D18 | **Floor 4 — Whispering Labyrinth** | Obsidian mirror maze | In-game environment | 🟡 HIGH | Puzzle floor |
+| D19 | **Floor 4 Boss — Labyrinth Guardian** | Cyclops with illusion vision | Boss concept | 🟢 MEDIUM | Tricky boss |
+| D20 | **Floor 5 — Feast of Fools** | Banquet hall with poisoned food | In-game environment | 🟡 HIGH | Moral test |
+| D21 | **Floor 5 Boss — Feast Master** | Obese demon at head of table | Boss concept | 🟢 MEDIUM | Gluttony boss |
+| D22 | **Floor 6 — Sludge Crypt** | Flooding room with debris, valves | In-game environment | 🟢 MEDIUM | Survival mechanics |
+| D23 | **Floor 6 Boss — Sludge King** | Giant elemental rising from sludge | Boss concept | 🟢 MEDIUM | Resource management boss |
+| D24 | **Floor 7 — Gambler's Den** | Shadowy casino, roulette wheel | In-game environment | 🟢 MEDIUM | Risk/reward mechanics |
+| D25 | **Floor 7 Boss — The Dealer** | Masked figure dealing cards | Boss concept | 🟢 MEDIUM | Gambling boss |
+| D26 | **Floor 8 — Silent Auction** | Dim hall with pedestals, items, NPC bids | In-game environment | 🟢 MEDIUM | Resource allocation |
+| D27 | **Floor 8 Boss — Auctioneer** | Cunning mage rigging auction | Boss concept | 🟢 MEDIUM | Outsmarting boss |
+| D28 | **Floor 9 — Ashen Prelude** | Vision of Millford, ritual scene, lever | In-game environment | 🟡 HIGH | Moral choice floor |
+| D29 | **Floor 9 Boss — Vorthax (Simulated)** | Draconic abomination, black flames | Boss concept | 🟡 HIGH | Climactic battle |
+| D30 | **Floor 10 — Goliath Arena** | Massive arena, faces on walls, giant in center | In-game environment | 🔴 CRITICAL | Vertical slice boss arena |
+| D31 | **Floor 10 Waiting Room** | Grand hall with hero statues | In-game environment | 🟡 HIGH | Safe zone, milestone |
+
+---
+
+## SECTION 3: RACES & CHARACTERS
+
+### 3.1 Race Concept Art
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| R1 | **Human — Male** | Diverse, adaptable human | Character creation | 🔴 CRITICAL | Multiple hair/skin tones |
+| R2 | **Human — Female** | Diverse, adaptable human | Character creation | 🔴 CRITICAL | Multiple hair/skin tones |
+| R3 | **Beastfolk — Canine** | Wolf-like features, keen senses | Character creation | 🟡 HIGH | Fuzzy ears, tail |
+| R4 | **Beastfolk — Feline** | Cat-like features, stealthy | Character creation | 🟡 HIGH | Lean, agile |
+| R5 | **Beastfolk — Ursine** | Bear-like features, bulky | Character creation | 🟡 HIGH | Large, powerful |
+| R6 | **Beastfolk — Avian** | Bird-like features, light | Character creation | 🟢 MEDIUM | Feathers, wings (clipped) |
+| R7 | **Beastfolk — Reptilian** | Lizard-like features, cold-blooded | Character creation | 🟢 MEDIUM | Scales, forked tongue |
+| R8 | **Ash-Kin** | Ember-skinned, slightly translucent, fading edges | Character creation | 🟡 HIGH | Melancholic, beautiful |
+| R9 | **Root-Gnawer** | Mossy, fungal growths, green/brown tones | Character creation | 🟢 MEDIUM | Druidic, wild |
+| R10 | **Weaver** | Spider-like features, multiple eyes, silk | Character creation | 🟢 MEDIUM | Elegant, alien |
+
+---
+
+### 3.2 Key NPCs
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| R11 | **Captain Elara Vex** | Millford commander, weary, haunted | Quest NPC | 🔴 CRITICAL | Descendant of Ashen Covenant |
+| R12 | **Varek Stonehand** | Adventurer's Guild Master, dwarf, missing arm | Quest NPC | 🟡 HIGH | Grizzled, experienced |
+| R13 | **King Harald IV** | Human monarch, aging, pressured | Quest NPC | 🟢 MEDIUM | Waning power |
+| R14 | **Merrik the Silent** | Lich leader of Chorus of Stillbone | Villain | 🟡 HIGH | Undead, robes, staff |
+| R15 | **High Archivist Selene** | Church of Observer leader | Quest NPC | 🟢 MEDIUM | Wise, ancient |
+| R16 | **Master Smith Torvin** | Forge-Mother's Forge leader | Quest NPC | 🟢 MEDIUM | Passionate, muscular |
+| R17 | **The Veiled Matriarch** | Silk Syndicate leader | Quest NPC | 🔵 LOW | Mysterious, webbed |
+| R18 | **The Deep Lord** | Elite Dungeon Diver leader | Quest NPC | 🔵 LOW | Scarred, arrogant |
+
+---
+
+## SECTION 4: SKILLS & ABILITIES
+
+### 4.1 Unique Skills Icons
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| S1 | **Great Sage** | Eye with gears, analytical | Skill UI | 🔴 CRITICAL | Most iconic Unique Skill |
+| S2 | **Predator** | Open maw consuming a skull | Skill UI | 🔴 CRITICAL | Rimuru-style Predator |
+| S3 | **Guardian's Aegis** | Shield with angelic wings | Skill UI | 🟡 HIGH | Protective skill |
+| S4 | **Usurper** | Shadowy hand stealing a crown | Skill UI | 🟡 HIGH | Skill-stealing |
+| S5 | **Sword Saint** | Sword with divine aura | Skill UI | 🟡 HIGH | Weapon mastery |
+| S6 | **Elemental Weaver** | Four elements swirling | Skill UI | 🟢 MEDIUM | Elemental magic |
+| S7 | **Silver Tongue** | Tongue with silver leaf | Skill UI | 🟢 MEDIUM | Persuasion skill |
+| S8 | **Unbreakable Will** | Heart with iron bands | Skill UI | 🟢 MEDIUM | Resilience skill |
+| S9 | **Athena's Eye** | All-seeing eye | Skill UI | 🟡 HIGH | Analytical skill |
+| S10 | **Tactician's Mind** | Chess board with moving pieces | Skill UI | 🟢 MEDIUM | Strategy skill |
+
+---
+
+### 4.2 Sin Series Icons
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| S11 | **Pride** | Crown with jagged edges, golden glow | Skill UI | 🟡 HIGH | Authority of Pride |
+| S12 | **Greed** | Grasping hand with coins | Skill UI | 🟡 HIGH | Authority of Greed |
+| S13 | **Lust** | Entwined chains, heart motif | Skill UI | 🟢 MEDIUM | Authority of Lust |
+| S14 | **Envy** | Mirror reflecting distorted image | Skill UI | 🟢 MEDIUM | Authority of Envy |
+| S15 | **Gluttony** | Infinite spiral, consuming maw | Skill UI | 🟡 HIGH | Authority of Gluttony |
+| S16 | **Wrath** | Cracked ground, red lightning | Skill UI | 🟡 HIGH | Authority of Wrath |
+| S17 | **Sloth** | Hourglass with frozen sand | Skill UI | 🟢 MEDIUM | Authority of Sloth |
+
+---
+
+### 4.3 Holy Series Icons
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| S18 | **Humility** | Simple crown on the ground | Skill UI | 🟡 HIGH | Authority of Humility |
+| S19 | **Charity** | Open hands giving light | Skill UI | 🟡 HIGH | Authority of Charity |
+| S20 | **Chastity** | Pure white flame | Skill UI | 🟢 MEDIUM | Authority of Chastity |
+| S21 | **Patience** | Ancient tree with deep roots | Skill UI | 🟢 MEDIUM | Authority of Patience |
+| S22 | **Kindness** | Heart with gentle glow | Skill UI | 🟡 HIGH | Authority of Kindness |
+| S23 | **Diligence** | Hammer striking an anvil | Skill UI | 🟢 MEDIUM | Authority of Diligence |
+| S24 | **Temperance** | Balanced scales | Skill UI | 🟢 MEDIUM | Authority of Temperance |
+
+---
+
+### 4.4 God Series Icons
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| S25 | **Void God Azathoth** | Cosmic void, endless darkness, single eye | Skill UI | 🔵 LOW | Lovecraftian |
+| S26 | **Harvest Lord Shub-Niggurath** | Organic growth, many limbs | Skill UI | 🔵 LOW | Lovecraftian |
+| S27 | **Flame God Cthugha** | Cosmic fire, burning concept | Skill UI | 🔵 LOW | Lovecraftian |
+| S28 | **Wisdom God Ciel** | Holographic interfaces, infinite data | Skill UI | 🔵 LOW | Lovecraftian |
+| S29 | **Sleeping God Yog-Sothoth** | Spheres, portals, clocks | Skill UI | 🔵 LOW | Lovecraftian |
+
+---
+
+## SECTION 5: GODS & PANTHEON
+
+### 5.1 God Portraits
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| G1 | **The Observer** | Faceless scholar with many eyes, floating scrolls | Religion UI, lore | 🟡 HIGH | Watcher, curious |
+| G2 | **The Forge-Mother** | Muscular woman with hammer, forge, glowing veins | Religion UI, lore | 🟡 HIGH | Creator, passionate |
+| G3 | **The Dungeon's Will** | Abstract concept—stone and flesh, infinite corridors | Religion UI, lore | 🟢 MEDIUM | Dungeon personified |
+| G4 | **The Watcher of Thresholds** | Hooded figure with keys and chains | Religion UI, lore | 🟢 MEDIUM | Gatekeeper |
+| G5 | **The Weeping Mother** | Mourning woman with tears, grief, rebirth motifs | Religion UI, lore | 🟢 MEDIUM | Comforter |
+| G6 | **The Laughing Trickster** | Jester-like, dice, chaos, masks | Religion UI, lore | 🟢 MEDIUM | Disruptor |
+| G7 | **The Silent Judge** | Blindfolded figure with scales, sword | Religion UI, lore | 🟢 MEDIUM | Arbiter |
+| G8 | **The First Flame** | Spark, candle, infant reaching toward fire | Religion UI, lore | 🟡 HIGH | Awakener |
+
+---
+
+## SECTION 6: UI & INTERFACE
+
+### 6.1 HUD Elements
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| U1 | **Health Bar** | Traditional health bar with skull motif | In-game HUD | 🔴 CRITICAL |
+| U2 | **Stamina Bar** | Stamina bar with gear animation | In-game HUD | 🔴 CRITICAL |
+| U3 | **Mana Bar** | Mana bar with glowing diamond | In-game HUD | 🔴 CRITICAL |
+| U4 | **Skill Hotbar** | 8-slot skill bar with icons | In-game HUD | 🔴 CRITICAL |
+| U5 | **Unique Skill Display** | Special slot for Unique Skill with evolution indicator | In-game HUD | 🟡 HIGH |
+| U6 | **Minimap** | Dungeon and world minimap with points of interest | In-game HUD | 🔴 CRITICAL |
+| U7 | **Compass** | Compass with quest markers | In-game HUD | 🟡 HIGH |
+| U8 | **Status Effect Icons** | Poison, fear, despair, hallucination, etc. | In-game HUD | 🟡 HIGH |
+
+---
+
+### 6.2 Menu Screens
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| U9 | **Main Menu** | Title screen with world art, game logo | First impression | 🔴 CRITICAL |
+| U10 | **Character Creation** | Race selection, appearance sliders | New game | 🔴 CRITICAL |
+| U11 | **Skill Menu** | List of all skills, progression paths | Skill management | 🟡 HIGH |
+| U12 | **Quest Log** | Active quests, hidden quest hints (minimal) | Quest management | 🟡 HIGH |
+| U13 | **Inventory** | Grid-based inventory with item icons | Item management | 🔴 CRITICAL |
+| U14 | **Equipment Screen** | Character paper doll with equipment slots | Character management | 🟡 HIGH |
+| U15 | **Map Screen** | World map with fast travel, markers | Navigation | 🔴 CRITICAL |
+| U16 | **Faction Menu** | Reputation, relationships, faction status | Reputation management | 🟡 HIGH |
+| U17 | **Settings** | Options menu | Settings | 🟡 HIGH |
+
+---
+
+## SECTION 7: ITEMS & EQUIPMENT
+
+### 7.1 Equipment Icons
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| I1 | **Blackwood Shield** | Shield made of Blackwood | Inventory | 🟡 HIGH |
+| I2 | **Iron Sword** | Standard iron sword | Inventory | 🔴 CRITICAL |
+| I3 | **Ash-Kin's Ember** | Glowing ember necklace | Inventory | 🟡 HIGH |
+| I4 | **Weaver's Silk Robe** | Elegant silk armor | Inventory | 🟢 MEDIUM |
+| I5 | **Goliath's Gauntlet** | Boss drop, massive gauntlet | Inventory | 🟡 HIGH |
+| I6 | **Soul Coins** | Dungeon currency | Inventory | 🔴 CRITICAL |
+| I7 | **Healing Potion** | Red potion | Inventory | 🔴 CRITICAL |
+| I8 | **Stamina Potion** | Blue potion | Inventory | 🔴 CRITICAL |
+| I9 | **Mana Potion** | Purple potion | Inventory | 🔴 CRITICAL |
+| I10 | **Blight Charm** | Resistance to blight | Inventory | 🟡 HIGH |
+| I11 | **Dungeon Map Fragment** | Map piece for deep floors | Inventory | 🟢 MEDIUM |
+| I12 | **Vorthax's Scale** | Legendary material | Inventory | 🔵 LOW |
+
+---
+
+## SECTION 8: MARKETING & CONCEPT
+
+### 8.1 Key Art
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| M1 | **Game Key Art** | Hero facing The Goliath, dramatic lighting | Marketing, Steam capsule | 🔴 CRITICAL | Most important image |
+| M2 | **Dungeon Poster** | Cross-section showing all strata, adventurous tone | Marketing | 🟡 HIGH |
+| M3 | **Faction Banner** | All faction symbols, conflict | Marketing | 🟢 MEDIUM |
+| M4 | **The Ashen King** | Vorthax in full glory | Marketing | 🟡 HIGH |
+| M5 | **Hero's Journey** | Character progression collage | Marketing | 🟢 MEDIUM |
+| M6 | **Gods Pantheon** | All 8 gods in one image | Marketing, lore | 🔵 LOW |
+| M7 | **Dungeon Floor Progression** | Show iconic moments from floors 1, 5, 10, 18, 30 | Marketing | 🟡 HIGH |
+
+---
+
+## SECTION 9: LOGOS & BRANDING
+
+### 9.1 Branding Assets
+
+| # | Image | Description | Usage | Priority | Notes |
+|---|-------|-------------|-------|----------|-------|
+| L1 | **Project Genesis Logo** | Typography with subtle dungeon motif | All materials | 🔴 CRITICAL |
+| L2 | **Dungeon Icon** | Simplified version for app icons, favicon | UI, marketing | 🟡 HIGH |
+| L3 | **Faction Symbols** | 8 unique faction logos | UI, lore | 🟡 HIGH |
+| L4 | **God Symbols** | 8 unique god symbols | UI, lore | 🟢 MEDIUM |
+| L5 | **Skill Tier Icons** | Basic, Extra, Unique, Ultimate, Authority | Skill UI | 🟡 HIGH |
+
+---
+
+## SECTION 10: ANIMATION & VFX REQUIREMENTS
+
+### 10.1 Animation Priority
+
+| # | Image/Asset | Description | Usage | Priority | Notes |
+|---|-------------|-------------|-------|----------|-------|
+| A1 | **Combat Idle** | Character combat stance | Animation | 🔴 CRITICAL |
+| A2 | **Sword Swing** | Basic attack animation | Animation | 🔴 CRITICAL |
+| A3 | **Dodge Roll** | Dodge animation | Animation | 🔴 CRITICAL |
+| A4 | **Block** | Shield block animation | Animation | 🔴 CRITICAL |
+| A5 | **Skill Cast** | Generic skill casting animation | Animation | 🟡 HIGH |
+| A6 | **Hit Reactions** | Damage reactions | Animation | 🔴 CRITICAL |
+| A7 | **Death Animation** | Character death | Animation | 🟡 HIGH |
+| A8 | **NPC Idle** | NPC idle states | Animation | 🟡 HIGH |
+| A9 | **Boss Animations** | Goliath attack patterns | Animation | 🔴 CRITICAL |
+| A10 | **Unique Skill Animations** | Visceral skill cast animations | Animation | 🟡 HIGH |
+
+---
+
+### 10.2 VFX Priority
+
+| # | Image/Asset | Description | Usage | Priority | Notes |
+|---|-------------|-------------|-------|----------|-------|
+| V1 | **Hit Impact** | Sparks, blood, enemy hit effects | VFX | 🔴 CRITICAL |
+| V2 | **Fire Effects** | Fireball, flame spells | VFX | 🟡 HIGH |
+| V3 | **Ice Effects** | Ice spells, freezing | VFX | 🟢 MEDIUM |
+| V4 | **Lightning Effects** | Chain lightning, sparks | VFX | 🟢 MEDIUM |
+| V5 | **Dark Magic Effects** | Necromancy, blight | VFX | 🟡 HIGH |
+| V6 | **Healing Effects** | Green glow, particles | VFX | 🟡 HIGH |
+| V7 | **Unique Skill Auras** | Great Sage, etc. | VFX | 🟡 HIGH |
+| V8 | **Sin/Holy Auras** | Red/gold glowing effects | VFX | 🟡 HIGH |
+| V9 | **Dungeon Atmosphere** | Fog, mist, firefly particles | VFX | 🔴 CRITICAL |
+| V10 | **Portal Effects** | Floor transitions | VFX | 🟡 HIGH |
+
+---
+
+## IMAGE PRODUCTION SUMMARY
+
+### Total Images Required: 210
+
+| Category | Count | Critical | High | Medium | Low |
+|----------|-------|----------|------|--------|-----|
+| **World Map & Locations** | 15 | 3 | 6 | 4 | 2 |
+| **The Dungeon** | 31 | 9 | 14 | 8 | 0 |
+| **Races & Characters** | 18 | 4 | 8 | 5 | 1 |
+| **Skills & Abilities** | 29 | 4 | 12 | 9 | 4 |
+| **Gods & Pantheon** | 8 | 0 | 3 | 5 | 0 |
+| **UI & Interface** | 17 | 9 | 6 | 2 | 0 |
+| **Items & Equipment** | 12 | 5 | 5 | 2 | 0 |
+| **Marketing & Concept** | 7 | 1 | 3 | 2 | 1 |
+| **Logos & Branding** | 5 | 3 | 2 | 0 | 0 |
+| **Animation & VFX** | 20 | 7 | 9 | 4 | 0 |
+| **TOTAL** | **162** | **45** | **68** | **41** | **8** |
+
+---
+
+## IMMEDIATE PRODUCTION PRIORITIES
+
+### 🔴 CRITICAL (45 Images)
+These must be completed before vertical slice:
+
+1. **World Map** — Continent map (W1)
+2. **Millford** — Overview, fort, blightmarsh (W8, W9, W10)
+3. **Outer Fissure / Last Light** — Dungeon entrance (W11)
+4. **The Shallows** — Floor 1, 3, 10 environments (D1, D12, D16, D30)
+5. **The Goliath** — Boss design (D7)
+6. **Human Races** — Male and female (R1, R2)
+7. **Captain Elara Vex** — Key NPC (R11)
+8. **Great Sage Icon** — Unique Skill (S1)
+9. **Predator Icon** — Unique Skill (S2)
+10. **Health, Stamina, Mana Bars** — HUD (U1, U2, U3)
+11. **Skill Hotbar** — HUD (U4)
+12. **Main Menu** — Title screen (U9)
+13. **Character Creation** — Race selection (U10)
+14. **Inventory** — Grid (U13)
+15. **Map Screen** — Full map (U15)
+16. **Game Key Art** — Hero vs Goliath (M1)
+17. **Project Genesis Logo** — Branding (L1)
+18. **All UI Icons** — Potions, equipment, etc. (I6, I7, I8, I9)
+
+### 🟡 HIGH (68 Images)
+Complete during Phase 2 implementation:
+
+- Regional maps, settlement interiors, Race sub-variants, Boss designs, Unique Skill icons, Sin/Holy icons, God portraits, Quest/Status UI, Animation sheets
+
+### 🟢 MEDIUM (41 Images)
+Complete during Phase 3-4 production:
+
+- Dungeon strata, advanced floors, deep NPCs, God Series icons, environmental VFX
+
+### 🔵 LOW (8 Images)
+Polish and marketing:
+
+- Dungeon Core concept, Lovecraftian God Series, final marketing materials
+
+---
+
+## DELIVERY SPECIFICATIONS
+
+| Specification | Requirement |
+|---------------|-------------|
+| **Resolution** | Minimum 1920x1080 (UI: 256x256) |
+| **Format** | PNG (transparent for UI/characters), JPG (environments) |
+| **Color Space** | sRGB |
+| **Density** | 72 DPI for UI, 300 DPI for print/marketing |
+| **Style** | Stylized realism, consistent lighting |
+| **File Naming** | [Category]_[Number]_[Name].png (e.g., W1_ContinentMap.png) |
+| **Delivery** | Organized by category folders |
+
+---
+
+## PDF EXCERPT: COMPLETE DESIGN BIBLE
+
+[Download the full PDF here](#)
+
+### PDF Table of Contents:
+1. Executive Summary
+2. Design Constitution
+3. Cosmology: The Cosmic Tutorial
+4. World Map & Locations
+5. The Dungeon: The Cradle of Trials
+6. Skills & Authorities System
+7. Unique Skills: The 100+ Birthrights
+8. Basic Skills: The Foundation
+9. The Sin Series & Holy Series
+10. Gods & Pantheon
+11. Factions & Races
+12. The Living World: Event Chains
+13. The Director System
+14. Quests & Emergent Narrative
+15. Implementation Plan
+16. **Image Production List** (Full 162-item breakdown)
+
+---
+
+**Project Genesis — Design Lock v1.0 Foundation**
+
+**Ready for Implementation | Art Direction Required**

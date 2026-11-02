@@ -1,0 +1,33 @@
+{
+  "before": {
+    "crouch": false,
+    "height": 1.9,
+    "anim": false,
+    "ground": true
+  },
+  "firstC": {
+    "crouch": true,
+    "height": 1.25,
+    "anim": true,
+    "ground": true
+  },
+  "secondC": {
+    "crouch": false,
+    "height": 1.9,
+    "anim": false,
+    "ground": true
+  },
+  "blockedC": {
+    "crouch": true,
+    "height": 1.25,
+    "anim": true,
+    "ground": true
+  },
+  "clearC": {
+    "crouch": false,
+    "height": 1.9,
+    "anim": false,
+    "ground": true
+  },
+  "passed": true
+}

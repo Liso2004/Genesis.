@@ -1,0 +1,37 @@
+{
+  "scene": "Assets/Scenes/Sandbox/Sandbox.unity",
+  "saved": true,
+  "playing": false,
+  "compiling": false,
+  "stations": 12,
+  "duplicatePlayerTypes": [],
+  "items": [
+    {
+      "ItemId": "ash-kin-ember",
+      "hasVisual": true,
+      "rotation": "(0.00, 0.00, 0.00)"
+    },
+    {
+      "ItemId": "blackwood-shield",
+      "hasVisual": true,
+      "rotation": "(0.00, 0.00, -90.00)"
+    },
+    {
+      "ItemId": "healing-potion",
+      "hasVisual": true,
+      "rotation": "(0.00, 0.00, 0.00)"
+    },
+    {
+      "ItemId": "iron-sword",
+      "hasVisual": true,
+      "rotation": "(0.00, 0.00, -90.00)"
+    },
+    {
+      "ItemId": "soul-coins",
+      "hasVisual": true,
+      "rotation": "(0.00, 0.00, 0.00)"
+    }
+  ],
+  "gods": 8,
+  "missingDomainReferences": 0
+}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24ebd85bc6a167c409c347cb0f4184f7, type: 3}
+  m_Name: Item-training-hands
+  m_EditorClassIdentifier: 
+  itemId: training-hands
+  displayName: Training Gloves
+  description: Simple hands equipment for the training ground.
+  category: 3
+  equipmentSlot: 5
+  maxStack: 1
+  visualPrefab: {fileID: 1856205741026004, guid: 440358ae6b8ce244ba6cd25fe184e257, type: 3}
+  icon: {fileID: 0}
+  equippedPosition: {x: 0, y: 0, z: 0}
+  equippedRotation: {x: 0, y: 0, z: 0}
+  equippedScale: {x: 1, y: 1, z: 1}
+  visibleParts:
+  - Chr_HandRight_Male_02
+  - Chr_HandLeft_Male_02
+  hiddenParts:
+  - Chr_HandRight_Male_00
+  - Chr_HandLeft_Male_00

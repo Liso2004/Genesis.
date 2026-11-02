@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae6e1c5ad7f5814ab6ad575d817625a, type: 3}
+  m_Name: Authority-SovereignServant
+  m_EditorClassIdentifier: 
+  authorityId: sovereign-servant
+  displayName: Authority of the Sovereign Servant
+  skills:
+  - skill: {fileID: 11400000, guid: 8b55943e88d8a1141a36d428c5bf4aba, type: 2}
+    mastery: 4
+  - skill: {fileID: 11400000, guid: 3662a58b73c4e164d98b80579d52ef50, type: 2}
+    mastery: 4
+  requiredConditions:
+  - trial-of-understanding
+  resonanceGod: {fileID: 0}
+  minimumResonance: 0

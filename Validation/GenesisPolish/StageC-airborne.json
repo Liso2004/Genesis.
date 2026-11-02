@@ -1,0 +1,10 @@
+{
+  "clips": [
+    "HumanM@Idle01",
+    "HumanM@Jump01 - Begin",
+    "HumanM@Fall01",
+    "HumanM@Jump01 - Land"
+  ],
+  "landed": true,
+  "vertical": -5.0
+}

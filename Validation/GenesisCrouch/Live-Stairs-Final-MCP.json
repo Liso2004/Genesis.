@@ -1,0 +1,26 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"stairsClimbed\":true,\"grounded\":true,\"height\":-1.05000019,\"position\":\"(35.00, -1.05, 3.47)\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "stairsClimbed": true,
+          "grounded": true,
+          "height": -1.05000019,
+          "position": "(35.00, -1.05, 3.47)"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

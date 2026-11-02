@@ -1,0 +1,6 @@
+{
+  "name": "Genesis.Character.Tests",
+  "references": ["Genesis.Character"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

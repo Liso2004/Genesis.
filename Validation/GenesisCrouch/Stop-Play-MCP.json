@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Exited play mode.\",\"data\":null}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Exited play mode.",
+      "data": null
+    },
+    "isError": false
+  }
+}

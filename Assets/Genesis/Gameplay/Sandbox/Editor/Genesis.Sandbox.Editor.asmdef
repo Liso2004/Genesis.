@@ -1,0 +1,1 @@
+{"name":"Genesis.Sandbox.Editor","references":["Genesis.Sandbox","Genesis.Core","Genesis.Character","Genesis.Skill","Genesis.NPC","Genesis.Items","Genesis.Gods","Genesis.Authorities","Genesis.Creation","Genesis.Save","Unity.ugui"],"includePlatforms":["Editor"]}

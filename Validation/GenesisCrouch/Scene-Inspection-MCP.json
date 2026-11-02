@@ -1,0 +1,36 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"scene\":\"Assets/Scenes/Sandbox/Sandbox.unity\",\"playerSkills\":true,\"avatar\":true,\"rootMotion\":false,\"states\":[\"Locomotion\",\"Jump\",\"Fall\",\"Land\",\"Crouch\"],\"npcs\":3,\"missingScripts\":0,\"courtyardChildren\":55},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "scene": "Assets/Scenes/Sandbox/Sandbox.unity",
+          "playerSkills": true,
+          "avatar": true,
+          "rootMotion": false,
+          "states": [
+            "Locomotion",
+            "Jump",
+            "Fall",
+            "Land",
+            "Crouch"
+          ],
+          "npcs": 3,
+          "missingScripts": 0,
+          "courtyardChildren": 55
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

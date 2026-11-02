@@ -1,0 +1,8 @@
+Sandbox Wanderer
+Human
+Starting skills: Perception, Swordsmanship, Dodge
+Unique: Great Sage
+Equipment: None
+Allegiance: None
+Reputation: Unknown
+Seed: 2

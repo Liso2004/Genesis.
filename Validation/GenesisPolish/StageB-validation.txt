@@ -1,0 +1,1 @@
+27/27 Play Mode tests passed. Real I open/close passed. Empty initial inventory, all seven equipment slots, ownership, full outfit restoration, weapon size, valid Avatar, root motion off, potion disabled and 25 coin display verified. Console counts: 0,0,24

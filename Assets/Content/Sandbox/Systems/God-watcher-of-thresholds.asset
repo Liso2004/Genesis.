@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc4fcff8efcbf14b96491f160bebd6f, type: 3}
+  m_Name: God-watcher-of-thresholds
+  m_EditorClassIdentifier: 
+  godId: watcher-of-thresholds
+  displayName: The Watcher of Thresholds
+  description: Boundaries, Transitions, Choices
+  presentationColor: {r: 0, g: 1, b: 1, a: 1}
+  affinities:
+  - domain: {fileID: 11400000, guid: 034192334e6a0314e97e83b63a7b38da, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: 794f77657bf8e0d4aa44e1fad4bf3f91, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: 153c790013145e84ba33ff36be73ed06, type: 2}
+    weight: 1
+  favorPerResonance: 1
+  maximumResonance: 100
+  maximumFavor: 1000
+  blessingFavorThreshold: 30
+  blessing: {fileID: 0}

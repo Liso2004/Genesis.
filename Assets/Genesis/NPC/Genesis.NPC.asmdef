@@ -1,0 +1,17 @@
+{
+    "name": "Genesis.NPC",
+    "rootNamespace": "Genesis.NPC",
+  "references": [
+    "Genesis.Character",
+    "Genesis.Skill"
+],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

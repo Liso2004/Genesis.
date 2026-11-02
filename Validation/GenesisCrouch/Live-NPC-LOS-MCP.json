@@ -1,0 +1,27 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"visible\":true,\"occluded\":true,\"reacquired\":true,\"avatar\":true,\"skill\":true},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "visible": true,
+          "occluded": true,
+          "reacquired": true,
+          "avatar": true,
+          "skill": true
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

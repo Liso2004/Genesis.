@@ -1,0 +1,26 @@
+Assets/Docs/Genesis-Crouch-Sandbox-Report.md
+Assets/Docs/Genesis-Crouch-Sandbox-Report.md.meta
+Assets/Docs/Genesis-Player-Movement.md
+Assets/Genesis/Character/Animatinos/PlayerAnimator.controller
+Assets/Genesis/Character/Editor/CrouchSandboxSetup.cs
+Assets/Genesis/Character/Editor/CrouchSandboxSetup.cs.meta
+Assets/Genesis/Character/Editor/Genesis.Character.Editor.asmdef
+Assets/Genesis/Character/Materials.meta
+Assets/Genesis/Character/Materials/Courtyard Stone.mat
+Assets/Genesis/Character/Materials/Courtyard Stone.mat.meta
+Assets/Genesis/Character/Materials/Crouch Test Marker.mat
+Assets/Genesis/Character/Materials/Crouch Test Marker.mat.meta
+Assets/Genesis/Character/PlayerAnimation.cs
+Assets/Genesis/Character/PlayerController.cs
+Assets/Genesis/Character/PlayerMovementInput.cs
+Assets/Genesis/Character/Prefabs/GenesisPlayer.prefab
+Assets/Genesis/Character/ThirdPersonCamera.cs
+Assets/Genesis/NPC/NPCAnimation.cs
+Assets/Genesis/NPC/NPCAnimation.cs.meta
+Assets/PolygonFantasyKingdom/Scenes/Demo_ExteriorOnly_Optimized.unity
+Assets/Scenes/Sandbox/Sandbox.unity
+Assets/Tests/Genesis.Character.Tests.asmdef
+Assets/Tests/PlayerAnimationTests.cs
+Assets/Tests/PlayerCrouchTests.cs
+Assets/Tests/PlayerCrouchTests.cs.meta
+Assets/Tests/PlayerMovementTests.cs

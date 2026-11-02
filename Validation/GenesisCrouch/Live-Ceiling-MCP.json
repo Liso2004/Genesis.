@@ -1,0 +1,28 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"blocked\":true,\"jumpBlocked\":true,\"roofBottom\":-0.740000069,\"crouchedTop\":-0.8800001,\"stoodInClearSpace\":true,\"standingHeight\":1.9},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "blocked": true,
+          "jumpBlocked": true,
+          "roofBottom": -0.740000069,
+          "crouchedTop": -0.8800001,
+          "stoodInClearSpace": true,
+          "standingHeight": 1.9
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

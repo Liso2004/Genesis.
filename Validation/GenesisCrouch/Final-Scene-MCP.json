@@ -1,0 +1,45 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"scene\":\"Assets/Scenes/Sandbox/Sandbox.unity\",\"dirty\":false,\"playing\":false,\"roots\":[\"World\",\"Main Camera\",\"Directional Light\",\"player\",\"CameraTestWall\",\"NPC_TestGuard\",\"GenesisRuntime \",\"Genesis Crouch Courtyard\"],\"playerPosition\":\"(0.00, 0.00, 0.00)\",\"inputEnabled\":true,\"prefab\":\"Assets/Genesis/Character/Prefabs/GenesisPlayer.prefab\",\"controller\":\"Assets/Genesis/Character/Animatinos/PlayerAnimator.controller\",\"avatar\":\"Assets/PolygonDungeonRealms/Models/Characters/Characters.fbx\",\"human\":true,\"valid\":true,\"rootMotion\":false,\"missingScripts\":0,\"hasCourtyard\":true},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "scene": "Assets/Scenes/Sandbox/Sandbox.unity",
+          "dirty": false,
+          "playing": false,
+          "roots": [
+            "World",
+            "Main Camera",
+            "Directional Light",
+            "player",
+            "CameraTestWall",
+            "NPC_TestGuard",
+            "GenesisRuntime ",
+            "Genesis Crouch Courtyard"
+          ],
+          "playerPosition": "(0.00, 0.00, 0.00)",
+          "inputEnabled": true,
+          "prefab": "Assets/Genesis/Character/Prefabs/GenesisPlayer.prefab",
+          "controller": "Assets/Genesis/Character/Animatinos/PlayerAnimator.controller",
+          "avatar": "Assets/PolygonDungeonRealms/Models/Characters/Characters.fbx",
+          "human": true,
+          "valid": true,
+          "rootMotion": false,
+          "missingScripts": 0,
+          "hasCourtyard": true
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

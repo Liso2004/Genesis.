@@ -1,0 +1,52 @@
+{
+  "remainingPickupChecks": [
+    {
+      "id": "pickup-ash-kin-ember",
+      "reachable": true,
+      "collected": true
+    },
+    {
+      "id": "pickup-soul-coins",
+      "reachable": true,
+      "collected": true
+    },
+    {
+      "id": "pickup-healing-potion",
+      "reachable": true,
+      "collected": true
+    },
+    {
+      "id": "pickup-iron-sword",
+      "reachable": true,
+      "collected": true
+    },
+    {
+      "id": "pickup-blackwood-shield",
+      "reachable": true,
+      "collected": true
+    }
+  ],
+  "inventory": [
+    {
+      "name": "Ash-Kin's Ember",
+      "count": 1
+    },
+    {
+      "name": "Soul Coins",
+      "count": 25
+    },
+    {
+      "name": "Healing Potion",
+      "count": 1
+    },
+    {
+      "name": "Iron Sword",
+      "count": 1
+    },
+    {
+      "name": "Blackwood Shield",
+      "count": 1
+    }
+  ],
+  "allFiveOwned": true
+}

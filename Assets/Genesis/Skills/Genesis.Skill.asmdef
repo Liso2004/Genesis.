@@ -1,0 +1,16 @@
+{
+    "name": "Genesis.Skill",
+    "rootNamespace": "Genesis.Skill",
+    "references": [
+        "GUID:ccf4274d820bef1409c941db865f28bd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

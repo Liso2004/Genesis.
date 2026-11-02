@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e196637732a3b442b18ff7374b42863, type: 3}
+  m_Name: Race-beastfolk
+  m_EditorClassIdentifier: 
+  raceId: beastfolk
+  displayName: Beastfolk
+  description: Instinctual peoples with distinct racial capabilities.
+  traits: []
+  subRaces:
+  - id: canine
+    displayName: Canine
+    traits:
+    - Keen Nose
+  - id: feline
+    displayName: Feline
+    traits:
+    - Silent Step
+  - id: ursine
+    displayName: Ursine
+    traits:
+    - Iron Hide
+  - id: avian
+    displayName: Avian
+    traits:
+    - Lightweight
+  - id: reptilian
+    displayName: Reptilian
+    traits:
+    - Cold Blood
+  compatibleVisualPrefab: {fileID: 0}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24ebd85bc6a167c409c347cb0f4184f7, type: 3}
+  m_Name: Item-training-cape
+  m_EditorClassIdentifier: 
+  itemId: training-cape
+  displayName: Training Cape
+  description: Simple cape equipment for the training ground.
+  category: 3
+  equipmentSlot: 7
+  maxStack: 1
+  visualPrefab: {fileID: 1765315241874880, guid: 46f3b13354d21bd479cf72bf57910c49, type: 3}
+  icon: {fileID: 0}
+  equippedPosition: {x: 0, y: 0, z: 0}
+  equippedRotation: {x: 0, y: 0, z: 0}
+  equippedScale: {x: 1, y: 1, z: 1}
+  visibleParts:
+  - Chr_BackAttachment_03
+  hiddenParts: []

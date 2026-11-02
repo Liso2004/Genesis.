@@ -1,0 +1,52 @@
+{
+  "playing": true,
+  "summary": "Sandbox Wanderer\nHuman\nStarting skills: Perception, Swordsmanship, Dodge\nUnique: Great Sage\nEquipment: None\nAllegiance: None\nReputation: Unknown",
+  "skills": [
+    "perception",
+    "swordsmanship",
+    "dodge",
+    "great-sage"
+  ],
+  "owned": 7,
+  "equipped": 5,
+  "animating": true,
+  "parts": [
+    "Chr_HeadCoverings_No_Hair_04",
+    "Chr_BackAttachment_03",
+    "Chr_Head_Male_00",
+    "Chr_Eyebrow_Male_01",
+    "Chr_Torso_Male_02",
+    "Chr_ArmUpperRight_Male_01",
+    "Chr_ArmUpperLeft_Male_01",
+    "Chr_ArmLowerRight_Male_01",
+    "Chr_ArmLowerLeft_Male_01",
+    "Chr_HandRight_Male_02",
+    "Chr_HandLeft_Male_02",
+    "Chr_Hips_Male_02",
+    "Chr_LegLeft_Male_02",
+    "Chr_LegRight_Male_02"
+  ],
+  "npcs": [
+    {
+      "name": "NPC_TestGuard",
+      "perception": true
+    },
+    {
+      "name": "player",
+      "perception": true
+    },
+    {
+      "name": "NPC_Soldier",
+      "perception": true
+    },
+    {
+      "name": "NPC_Blacksmith",
+      "perception": true
+    },
+    {
+      "name": "NPC_Merchant",
+      "perception": true
+    }
+  ],
+  "missing": 0
+}

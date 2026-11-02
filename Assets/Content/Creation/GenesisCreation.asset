@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53aeb7d7f1122664fbea9a2497ff9ef4, type: 3}
+  m_Name: GenesisCreation
+  m_EditorClassIdentifier: 
+  races:
+  - {fileID: 11400000, guid: 31f573a18c48a1a4fa28baefc4ae9da9, type: 2}
+  - {fileID: 11400000, guid: b707016cb413f84458f9641934fc23bc, type: 2}
+  - {fileID: 11400000, guid: a4399d019aaf97c44857e7f219220bf2, type: 2}
+  - {fileID: 11400000, guid: 9726b774d6419f143a33a5c4acb33d2c, type: 2}
+  - {fileID: 11400000, guid: 5e13355ac1663e947bdeb83fee0f8c73, type: 2}
+  questions:
+  - id: sealed-ruin
+    text: You discover a sealed ruin that the town avoids. What interests you first?
+    answers:
+    - text: What may be hidden inside.
+      weights:
+      - trait: 7
+        weight: 2
+      - trait: 4
+        weight: 1
+    - text: Why someone sealed it.
+      weights:
+      - trait: 0
+        weight: 2
+      - trait: 1
+        weight: 1
+    - text: What preparation an expedition would need.
+      weights:
+      - trait: 6
+        weight: 2
+      - trait: 2
+        weight: 1
+  - id: threatened-stranger
+    text: Someone stronger threatens a stranger. What is your first instinct?
+    answers:
+    - text: Step between them.
+      weights:
+      - trait: 3
+        weight: 2
+      - trait: 4
+        weight: 1
+    - text: Observe what is happening before acting.
+      weights:
+      - trait: 0
+        weight: 2
+      - trait: 1
+        weight: 1
+    - text: Find someone who can help.
+      weights:
+      - trait: 2
+        weight: 2
+      - trait: 3
+        weight: 1
+  - id: unknown-object
+    text: You receive an object nobody understands. What do you do?
+    answers:
+    - text: Study its details.
+      weights:
+      - trait: 7
+        weight: 2
+      - trait: 6
+        weight: 1
+    - text: Try a careful experiment.
+      weights:
+      - trait: 5
+        weight: 2
+      - trait: 4
+        weight: 1
+    - text: Ask someone with relevant knowledge.
+      weights:
+      - trait: 2
+        weight: 2
+      - trait: 7
+        weight: 1
+  - id: journey
+    text: You have a day to reach a distant settlement. Which route appeals to you?
+    answers:
+    - text: An unfamiliar shortcut.
+      weights:
+      - trait: 4
+        weight: 2
+      - trait: 8
+        weight: 1
+    - text: A reliable road with time to prepare.
+      weights:
+      - trait: 6
+        weight: 2
+      - trait: 1
+        weight: 1
+    - text: A route with interesting landmarks.
+      weights:
+      - trait: 0
+        weight: 2
+      - trait: 7
+        weight: 1
+  - id: shared-task
+    text: A group has more work than daylight. How do you contribute?
+    answers:
+    - text: Help coordinate the work.
+      weights:
+      - trait: 2
+        weight: 2
+      - trait: 6
+        weight: 1
+    - text: Find a more efficient method.
+      weights:
+      - trait: 5
+        weight: 2
+      - trait: 1
+        weight: 1
+    - text: Assist whoever is struggling.
+      weights:
+      - trait: 3
+        weight: 2
+      - trait: 0
+        weight: 1
+  - id: setback
+    text: Your first attempt at a difficult task fails. What draws you onward?
+    answers:
+    - text: Finding a different explanation.
+      weights:
+      - trait: 5
+        weight: 2
+      - trait: 7
+        weight: 1
+    - text: Practicing the difficult part.
+      weights:
+      - trait: 6
+        weight: 2
+      - trait: 1
+        weight: 1
+    - text: Trying another route to the goal.
+      weights:
+      - trait: 4
+        weight: 2
+      - trait: 8
+        weight: 1
+  basicSkills:
+  - skill: {fileID: 11400000, guid: 23992162ad01e704497c84098f7490de, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 0
+      weight: 2
+    - trait: 7
+      weight: 1
+    races: []
+    resonance: []
+  - skill: {fileID: 11400000, guid: 84d6734c9e0461f49af2adf4de5de401, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 6
+      weight: 2
+    - trait: 8
+      weight: 1
+    races: []
+    resonance: []
+  - skill: {fileID: 11400000, guid: 3d9bc922515f33541909f4a6e246a77e, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 4
+      weight: 2
+    - trait: 0
+      weight: 1
+    races: []
+    resonance: []
+  - skill: {fileID: 11400000, guid: 836e4f584b2de4e46a841a1c11705577, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 7
+      weight: 2
+    - trait: 1
+      weight: 1
+    races: []
+    resonance: []
+  - skill: {fileID: 11400000, guid: 287146b3383f2de47ad77feca0396503, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 0
+      weight: 2
+    - trait: 1
+      weight: 1
+    races:
+    - race: {fileID: 11400000, guid: b707016cb413f84458f9641934fc23bc, type: 2}
+      subRaceId: canine
+      multiplier: 1.4
+    resonance: []
+  - skill: {fileID: 11400000, guid: ed0763b87cc66354bbb2b57343e45530, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 1
+      weight: 2
+    - trait: 3
+      weight: 1
+    races: []
+    resonance: []
+  - skill: {fileID: 11400000, guid: 4fab049e6d979454fbd33fee393d45bc, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 5
+      weight: 2
+    - trait: 7
+      weight: 1
+    races: []
+    resonance: []
+  - skill: {fileID: 11400000, guid: 951626bbf7755ff4693648017c0453fc, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 0
+      weight: 2
+    - trait: 6
+      weight: 1
+    races:
+    - race: {fileID: 11400000, guid: b707016cb413f84458f9641934fc23bc, type: 2}
+      subRaceId: feline
+      multiplier: 1.4
+    resonance: []
+  uniqueSkills:
+  - skill: {fileID: 11400000, guid: e2f562da30d7f6c47818c170203fbdbb, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 7
+      weight: 2
+    - trait: 0
+      weight: 1
+    races:
+    - race: {fileID: 11400000, guid: 31f573a18c48a1a4fa28baefc4ae9da9, type: 2}
+      subRaceId: 
+      multiplier: 1.1
+    - race: {fileID: 11400000, guid: a4399d019aaf97c44857e7f219220bf2, type: 2}
+      subRaceId: 
+      multiplier: 1.2
+    resonance:
+    - domainId: knowledge
+      weight: 0.5
+  - skill: {fileID: 11400000, guid: 5a8d74bf8180dbb46b0f72d81f9c9d3f, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 8
+      weight: 2
+    - trait: 4
+      weight: 1
+    races:
+    - race: {fileID: 11400000, guid: b707016cb413f84458f9641934fc23bc, type: 2}
+      subRaceId: 
+      multiplier: 1.2
+    resonance: []
+  - skill: {fileID: 11400000, guid: 8dd41381504beed43aafeb7673a27983, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 3
+      weight: 2
+    - trait: 6
+      weight: 1
+    races: []
+    resonance: []
+  - skill: {fileID: 11400000, guid: 6f0fae7f327eaa544bed9568ece5fdd6, type: 2}
+    baseWeight: 1
+    personality:
+    - trait: 0
+      weight: 2
+    - trait: 5
+      weight: 1
+    races:
+    - race: {fileID: 11400000, guid: 9726b774d6419f143a33a5c4acb33d2c, type: 2}
+      subRaceId: 
+      multiplier: 1.2
+    - race: {fileID: 11400000, guid: 5e13355ac1663e947bdeb83fee0f8c73, type: 2}
+      subRaceId: 
+      multiplier: 1.2
+    resonance: []
+  startingSkillCount: 3
+  choiceCandidateCount: 5
+  progression: {fileID: 11400000, guid: a018e5bbc3501f84abf73deb7684fa0b, type: 2}
+  loreIntroduction: The universe is a classroom. The System recognizes potential,
+    and the Gods watch a living world. In Aethel, civilizations continue their own
+    lives while people seek power, answers and purpose in the Dungeon. The Dungeon
+    teaches; the world tests what is learned. You arrive unknown and unequipped.
+    Nothing says who you must become.

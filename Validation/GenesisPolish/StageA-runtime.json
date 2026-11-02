@@ -1,0 +1,10 @@
+{
+  "crouchHeight": 1.25,
+  "crouchSpeed": 0.8000135,
+  "blockedStand": true,
+  "crouchJumpBlocked": true,
+  "exitAndStand": true,
+  "standingHeight": 1.9,
+  "standingJump": true,
+  "landed": true
+}

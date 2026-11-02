@@ -1,0 +1,8 @@
+{
+  "scene": "Assets\\PolygonFantasyKingdom\\Scenes\\Demo_ExteriorOnly_Optimized.unity",
+  "runtimeCount": 1,
+  "runtimeEnabled": true,
+  "runtimeRootRegistered": true,
+  "canonicalPlayerPrefabReferenced": true,
+  "verification": "Saved Unity scene serialization checked against actual script and prefab meta GUIDs; no exterior playtest claimed."
+}

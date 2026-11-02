@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "station": "observation-1",
+      "observed": true,
+      "repeat": false
+    },
+    {
+      "station": "observation-0",
+      "observed": true,
+      "repeat": false
+    },
+    {
+      "station": "observation-2",
+      "observed": true,
+      "repeat": false
+    }
+  ],
+  "mainHand": "Iron Sword",
+  "offHand": "Blackwood Shield",
+  "practice": true,
+  "repeatedPractice": false,
+  "blessingBeforeEarned": false,
+  "observerFavor": 30.0,
+  "blessingClaimed": true,
+  "rangeMultiplier": 1.15,
+  "authorityFeedback": "Requirements missing: Pride — Sovereign's Will / Mastery, Humility — Servant's Heart / Mastery, trial-of-understanding",
+  "events": 27,
+  "handVisuals": 1
+}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ecbfb2833418f54d843b51097b5f966, type: 3}
+  m_Name: SandboxStartingProfile
+  m_EditorClassIdentifier: 
+  definition: {fileID: 11400000, guid: ca45ebd62b727294ca1c54d95d47c347, type: 2}
+  playerName: Sandbox Wanderer
+  race: {fileID: 11400000, guid: 31f573a18c48a1a4fa28baefc4ae9da9, type: 2}
+  subRaceId: 
+  appearanceParts:
+  - Chr_Head_Male_00
+  - Chr_Eyebrow_Male_01
+  - Chr_Hair_01
+  - Chr_Torso_Male_04
+  - Chr_ArmUpperRight_Male_00
+  - Chr_ArmUpperLeft_Male_00
+  - Chr_ArmLowerRight_Male_00
+  - Chr_ArmLowerLeft_Male_00
+  - Chr_HandRight_Male_00
+  - Chr_HandLeft_Male_00
+  - Chr_Hips_Male_01
+  - Chr_LegRight_Male_01
+  - Chr_LegLeft_Male_01
+  answers: 000000000100000000000000010000000000000001000000
+  letFateDecide: 0
+  mode: 1
+  choices:
+  - {fileID: 11400000, guid: 23992162ad01e704497c84098f7490de, type: 2}
+  - {fileID: 11400000, guid: 84d6734c9e0461f49af2adf4de5de401, type: 2}
+  - {fileID: 11400000, guid: 3d9bc922515f33541909f4a6e246a77e, type: 2}
+  seed: 2

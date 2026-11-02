@@ -1,0 +1,61 @@
+{
+  "initialEmpty": true,
+  "tests": [
+    {
+      "id": "training-cape",
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "owned": true,
+      "identityRestored": true
+    },
+    {
+      "id": "training-head",
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "owned": true,
+      "identityRestored": true
+    },
+    {
+      "id": "iron-sword",
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "owned": true,
+      "identityRestored": true
+    },
+    {
+      "id": "training-chest",
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "owned": true,
+      "identityRestored": true
+    },
+    {
+      "id": "training-hands",
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "owned": true,
+      "identityRestored": true
+    },
+    {
+      "id": "blackwood-shield",
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "owned": true,
+      "identityRestored": true
+    },
+    {
+      "id": "training-legs",
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "owned": true,
+      "identityRestored": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc4fcff8efcbf14b96491f160bebd6f, type: 3}
+  m_Name: God-first-flame
+  m_EditorClassIdentifier: 
+  godId: first-flame
+  displayName: The First Flame
+  description: Beginnings, Potential, Hope
+  presentationColor: {r: 0, g: 1, b: 1, a: 1}
+  affinities:
+  - domain: {fileID: 11400000, guid: 5bbfa5aa3ee65cb45954b79a9bc179d2, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: 07b2812fbd497664387b928d771a1a7c, type: 2}
+    weight: 1
+  - domain: {fileID: 11400000, guid: 0e6a2467e8f438a41966ce5ca797bdc1, type: 2}
+    weight: 1
+  favorPerResonance: 1
+  maximumResonance: 100
+  maximumFavor: 1000
+  blessingFavorThreshold: 30
+  blessing: {fileID: 0}

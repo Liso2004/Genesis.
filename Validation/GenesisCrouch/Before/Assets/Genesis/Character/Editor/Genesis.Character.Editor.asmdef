@@ -1,0 +1,6 @@
+{
+  "name": "Genesis.Character.Editor",
+  "rootNamespace": "Genesis.Character.Editor",
+  "references": ["Genesis.Character"],
+  "includePlatforms": ["Editor"]
+}

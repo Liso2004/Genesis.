@@ -1,0 +1,21 @@
+{
+  "name": "Genesis.Character.Tests",
+  "references": [
+    "Genesis.Character",
+    "Genesis.Core",
+    "Genesis.Skill",
+    "Genesis.NPC",
+    "Genesis.Items",
+    "Genesis.Gods",
+    "Genesis.Authorities",
+    "Genesis.Sandbox",
+    "Genesis.Creation",
+    "Genesis.Save"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

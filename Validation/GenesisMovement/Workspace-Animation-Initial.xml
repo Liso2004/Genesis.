@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Failed(Child)" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-20 18:33:32Z" end-time="2026-09-20 18:33:34Z" duration="2,5995258">
+  <test-suite type="TestSuite" id="1021" name="Genesis" fullname="Genesis" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-09-20 18:33:32Z" end-time="2026-09-20 18:33:34Z" duration="2.599526" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1015" name="Genesis.Character.Tests.dll" fullname="C:/Users/lisow/Genesis/Library/ScriptAssemblies/Genesis.Character.Tests.dll" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-09-20 18:33:32Z" end-time="2026-09-20 18:33:34Z" duration="2.593670" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="13108" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1016" name="Genesis" fullname="Genesis" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-09-20 18:33:32Z" end-time="2026-09-20 18:33:34Z" duration="2.592937" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1017" name="Tests" fullname="Genesis.Tests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-09-20 18:33:32Z" end-time="2026-09-20 18:33:34Z" duration="2.592522" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1001" name="PlayerAnimationTests" fullname="Genesis.Tests.PlayerAnimationTests" classname="Genesis.Tests.PlayerAnimationTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-20 18:33:32Z" end-time="2026-09-20 18:33:34Z" duration="2.591288" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1004" name="JumpFallLandAndLedgeTransitionsRecoverWithoutLoops" fullname="Genesis.Tests.PlayerAnimationTests.JumpFallLandAndLedgeTransitionsRecoverWithoutLoops" methodname="JumpFallLandAndLedgeTransitionsRecoverWithoutLoops" classname="Genesis.Tests.PlayerAnimationTests" runstate="Runnable" seed="255281581" result="Failed" start-time="2026-09-20 18:33:32Z" end-time="2026-09-20 18:33:34Z" duration="2.095857" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[at Genesis.Tests.PlayerAnimationTests+<JumpFallLandAndLedgeTransitionsRecoverWithoutLoops>d__7.MoveNext () [0x00047] in C:\Users\lisow\Genesis\Assets\Tests\PlayerAnimationTests.cs:122
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0a21eb82d95c\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1003" name="MotorMovementDrivesAnimatorThroughPresentation" fullname="Genesis.Tests.PlayerAnimationTests.MotorMovementDrivesAnimatorThroughPresentation" methodname="MotorMovementDrivesAnimatorThroughPresentation" classname="Genesis.Tests.PlayerAnimationTests" runstate="Runnable" seed="1530524565" result="Failed" start-time="2026-09-20 18:33:34Z" end-time="2026-09-20 18:33:34Z" duration="0.445285" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: 1.60000002f +/- 0.0299999993f
+  But was:  1.55056787f
+]]></message>
+                <stack-trace><![CDATA[at Genesis.Tests.PlayerAnimationTests+<MotorMovementDrivesAnimatorThroughPresentation>d__6.MoveNext () [0x0016d] in C:\Users\lisow\Genesis\Assets\Tests\PlayerAnimationTests.cs:102
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0a21eb82d95c\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1002" name="PrefabRetargetsKevinClipsWithoutMovingActorRoot" fullname="Genesis.Tests.PlayerAnimationTests.PrefabRetargetsKevinClipsWithoutMovingActorRoot" methodname="PrefabRetargetsKevinClipsWithoutMovingActorRoot" classname="Genesis.Tests.PlayerAnimationTests" runstate="Runnable" seed="830700660" result="Passed" start-time="2026-09-20 18:33:34Z" end-time="2026-09-20 18:33:34Z" duration="0.036120" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/lisow/AppData/LocalLow/DefaultCompany/Genesis\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

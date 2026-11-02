@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Passed" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-12 19:02:41Z" end-time="2026-09-12 19:02:42Z" duration="0,6403447">
+  <test-suite type="TestSuite" id="1018" name="Genesis" fullname="Genesis" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-12 19:02:41Z" end-time="2026-09-12 19:02:42Z" duration="0.640345" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1014" name="Genesis.Character.Tests.dll" fullname="C:/Users/lisow/Genesis/Temp/GenesisMotorValidation/Library/ScriptAssemblies/Genesis.Character.Tests.dll" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-12 19:02:41Z" end-time="2026-09-12 19:02:42Z" duration="0.635329" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="38848" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1015" name="Genesis" fullname="Genesis" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-12 19:02:41Z" end-time="2026-09-12 19:02:42Z" duration="0.634973" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1016" name="Tests" fullname="Genesis.Tests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-12 19:02:41Z" end-time="2026-09-12 19:02:42Z" duration="0.634741" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1004" name="PlayerMovementTests" fullname="Genesis.Tests.PlayerMovementTests" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-09-12 19:02:41Z" end-time="2026-09-12 19:02:42Z" duration="0.633748" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1013" name="CameraProbeIgnoresPlayerAndClampsToWall" fullname="Genesis.Tests.PlayerMovementTests.CameraProbeIgnoresPlayerAndClampsToWall" methodname="CameraProbeIgnoresPlayerAndClampsToWall" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" seed="2004556802" result="Passed" start-time="2026-09-12 19:02:41Z" end-time="2026-09-12 19:02:42Z" duration="0.497553" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="CameraRelativeInputPreservesAnalogAndNormalizesDiagonals" fullname="Genesis.Tests.PlayerMovementTests.CameraRelativeInputPreservesAnalogAndNormalizesDiagonals" methodname="CameraRelativeInputPreservesAnalogAndNormalizesDiagonals" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" seed="1994661166" result="Passed" start-time="2026-09-12 19:02:42Z" end-time="2026-09-12 19:02:42Z" duration="0.002884" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="CeilingStopsAscentAndTriggersDoNotGroundPlayer" fullname="Genesis.Tests.PlayerMovementTests.CeilingStopsAscentAndTriggersDoNotGroundPlayer" methodname="CeilingStopsAscentAndTriggersDoNotGroundPlayer" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" seed="1608972084" result="Passed" start-time="2026-09-12 19:02:42Z" end-time="2026-09-12 19:02:42Z" duration="0.033306" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="GroundedMovementSupportsDirectionsSpeedsStoppingAndWallContact" fullname="Genesis.Tests.PlayerMovementTests.GroundedMovementSupportsDirectionsSpeedsStoppingAndWallContact" methodname="GroundedMovementSupportsDirectionsSpeedsStoppingAndWallContact" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" seed="722143381" result="Passed" start-time="2026-09-12 19:02:42Z" end-time="2026-09-12 19:02:42Z" duration="0.061019" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="JumpAppliesImmediatelyCannotRepeatInAirAndLands" fullname="Genesis.Tests.PlayerMovementTests.JumpAppliesImmediatelyCannotRepeatInAirAndLands" methodname="JumpAppliesImmediatelyCannotRepeatInAirAndLands" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" seed="1972007756" result="Passed" start-time="2026-09-12 19:02:42Z" end-time="2026-09-12 19:02:42Z" duration="0.002526" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="LedgeTransitionsToFallAndTerminalVelocityIsBounded" fullname="Genesis.Tests.PlayerMovementTests.LedgeTransitionsToFallAndTerminalVelocityIsBounded" methodname="LedgeTransitionsToFallAndTerminalVelocityIsBounded" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" seed="1369453796" result="Passed" start-time="2026-09-12 19:02:42Z" end-time="2026-09-12 19:02:42Z" duration="0.003447" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="SpawnPreservesHeightAndCapsuleSettings" fullname="Genesis.Tests.PlayerMovementTests.SpawnPreservesHeightAndCapsuleSettings" methodname="SpawnPreservesHeightAndCapsuleSettings" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" seed="643991362" result="Passed" start-time="2026-09-12 19:02:42Z" end-time="2026-09-12 19:02:42Z" duration="0.002257" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="TravelDistanceIsConsistentAtThirtyAndOneHundredTwentyFps" fullname="Genesis.Tests.PlayerMovementTests.TravelDistanceIsConsistentAtThirtyAndOneHundredTwentyFps" methodname="TravelDistanceIsConsistentAtThirtyAndOneHundredTwentyFps" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" seed="137163080" result="Passed" start-time="2026-09-12 19:02:42Z" end-time="2026-09-12 19:02:42Z" duration="0.003479" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="WalkableSlopeRemainsGroundedAndSteepSlopeDoesNotPermitJump" fullname="Genesis.Tests.PlayerMovementTests.WalkableSlopeRemainsGroundedAndSteepSlopeDoesNotPermitJump" methodname="WalkableSlopeRemainsGroundedAndSteepSlopeDoesNotPermitJump" classname="Genesis.Tests.PlayerMovementTests" runstate="Runnable" seed="978787902" result="Passed" start-time="2026-09-12 19:02:42Z" end-time="2026-09-12 19:02:42Z" duration="0.016775" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:\Users\lisow\Genesis\Temp\GenesisMotorResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

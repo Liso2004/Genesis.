@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951bf04b2a9ecf04e9002c4a3abeda83, type: 3}
+  m_Name: SandboxScenario
+  m_EditorClassIdentifier: 
+  perception: {fileID: 11400000, guid: 23992162ad01e704497c84098f7490de, type: 2}
+  swordsmanship: {fileID: 11400000, guid: 84d6734c9e0461f49af2adf4de5de401, type: 2}
+  progression: {fileID: 11400000, guid: a018e5bbc3501f84abf73deb7684fa0b, type: 2}
+  ironSword: {fileID: 11400000, guid: 45e7eb36724f3b64289b1f74c8a87021, type: 2}
+  blackwoodShield: {fileID: 11400000, guid: 72c87fe884595f34da15b5b13a74741a, type: 2}
+  observer: {fileID: 11400000, guid: 597b9739a26420443afde832635fc512, type: 2}
+  sovereignServant: {fileID: 11400000, guid: e6e487d02e387524d98e4b19ba9454d0, type: 2}
+  meaningfulProgress: 10
+  interactionDistance: 2.8
+  observationDistance: 8
+  observationFieldOfView: 100
+  practiceCooldown: 0.7
+  practiceDistance: 2.8

@@ -1,0 +1,839 @@
+# PROJECT GENESIS — EMERGENT WORLD LORE & DYNAMIC EVENTS
+
+## A Dwarf Fortress & Worldbox Inspired World-Building Expansion
+
+---
+
+> *"The world is not a story. It is a machine that generates stories. Every civilization, every grudge, every disaster is a gear turning in a vast, indifferent clockwork."*
+
+---
+
+## PART 1: THE DEEP HISTORY — AGES OF AETHEL
+
+### The Age of Embers (Pre-History)
+
+> *"Before the System, there was only fire and ash. The first beings crawled from the embers with nothing but hunger."*
+
+**Epoch 1: The First Flame (10,000+ years ago)**
+- The world was a barren wasteland of ash and stone.
+- The First Flame appeared—not as a fire, but as a *concept*. The idea of warmth, of growth, of potential.
+- From the First Flame, the first Ash-Kin emerged. They were not born—they *condensed* from the embers.
+- The Ash-Kin wandered the ash wastes, driven by an instinct they did not understand: *to remember*.
+
+**Epoch 2: The Birth of the Dungeon (8,000 years ago)**
+- The Ash-Kin discovered a chasm in the earth—the Outer Fissure.
+- They descended, and the Dungeon welcomed them. It taught them their first skills: *Sparks*, *Shadows*, and *Silence*.
+- The first monsters were born—manifestations of the Dungeon's will to test.
+- The Ash-Kin emerged changed. They carried the Dungeon's lessons back to the surface.
+
+**Epoch 3: The Emergence of Beasts (6,000 years ago)**
+- Monsters from the Dungeon began to spill onto the surface.
+- Some monsters were killed. Some were captured. Some were studied.
+- A few, through exposure to the System, *became something else*—the first Beastfolk.
+- The Beastfolk were seen as abominations by the Ash-Kin. They were hunted, driven to the northern wastes.
+
+---
+
+### The Age of Forging (The System's Awakening)
+
+> *"The System did not wake up. It was woken up. And it was hungry."*
+
+**Epoch 4: The Crystal Covenant (4,000 years ago)**
+- A group of Ash-Kin found a massive crystal at the center of the Dungeon's Core.
+- The crystal was the System's first *node*—a physical anchor for the cosmic tutorial.
+- The Ash-Kin made a pact with the crystal: they would become its shepherds, guarding the Dungeon's secrets.
+- They called themselves the Covenant of the Deep.
+
+**Epoch 5: The Great Fall (3,500 years ago)**
+- The Covenant was destroyed by a rival faction of Ash-Kin who wanted to *use* the System, not guard it.
+- The crystal was shattered. Fragments scattered across the world.
+- The System became unstable. Skills flickered. Monsters grew erratic.
+- The Dungeon went silent for a generation.
+
+**Epoch 6: The Weaver's Rise (3,000 years ago)**
+- In the darkness, a new race emerged from the depths—the Weavers.
+- They had evolved from giant spiders that fed on the shattered crystal fragments.
+- The Weavers were pragmatic. They saw the System not as sacred, but as *law*—and they intended to master it.
+- They built the Silk Spires, their great city of geometric perfection.
+
+---
+
+### The Age of Kingdoms (Civilization Emerges)
+
+> *"Order rose from chaos. Not because it was virtuous, but because it was useful."*
+
+**Epoch 7: The Human Exodus (2,500 years ago)**
+- Humans emerged from the Dungeon's Shallows, having evolved from the Dungeon's "failed experiments."
+- They were weak. They had no natural advantages. But they were *many*.
+- They spread across the surface like a tide, settling in the Heartlands.
+- The Ash-Kin, seeing their own fading, taught the humans the System's basic rules.
+
+**Epoch 8: The Root-Gnawer Schism (2,000 years ago)**
+- A faction of humans, radicalized by the destruction of the Covenant, broke away.
+- They sought *pruning*—a return to the world before civilization, before the System.
+- They retreated into the Ashlands and became the Root-Gnawers.
+- They began their long war against all civilization.
+
+**Epoch 9: The Ashen War (1,500 years ago)**
+- Vorthax, the Ashen King, rose from the Blightmarsh (then a fertile valley).
+- He was a dragon—or rather, he had *become* a dragon through a forbidden Authority.
+- He sought to consume the System's fragments and become a god.
+- The Covenant of the Deep (now scattered) formed the Ashen Covenant—the knights who would stop him.
+- After a brutal war, they slew Vorthax. But his dying blood poisoned the valley, creating the Blightmarsh.
+
+---
+
+### The Age of Crisis (Present Day)
+
+> *"The world is stable. The world is decaying. The world is waiting."*
+
+**Epoch 10: The Gleaming Throne (300 years ago)**
+- King Aldric the Uniter forged the human capital of Aethelgard.
+- He built it with Weaver silk-reinforced mortar, making it impregnable.
+- The Crown was born. And with it, bureaucracy, taxation, and *control*.
+
+**Epoch 11: The Cult's Resurgence (50 years ago)**
+- The Chorus of Stillbone was founded by a fallen priest of The Observer.
+- They discovered the Dragon's Grave and began their long, patient work.
+- They believe that undeath is the *ultimate evolutionary state*—the end of conflict, the end of suffering.
+
+**Epoch 12: The Present Day**
+- The world is a powder keg.
+- The Blightmarsh is expanding. The Cult is preparing its ritual.
+- The Factions are at odds. The Crown is weak. The Root-Gnawers are growing bolder.
+- The Dungeon is awakening. The System is restless.
+- The player enters.
+
+---
+
+## PART 2: DWARF FORTRESS-STYLE CIVILIZATION GENERATION
+
+> *"Every civilization is a story. Every story is a tragedy waiting to happen."*
+
+### Civilization Generation System
+
+When the world is created, the game generates **multiple civilizations** with the following traits:
+
+| Trait | Description | Examples |
+|-------|-------------|----------|
+| **Origin** | How they were founded | *Old Kingdom* (centuries old), *Refugee Band* (fled disaster), *Colony* (offshoot of larger power) |
+| **Government** | How they are ruled | *Monarchy*, *Oligarchy*, *Theocracy*, *Council*, *Anarchy* |
+| **Values** | What they prioritize | *Wealth*, *War*, *Knowledge*, *Piety*, *Mercy*, *Cruelty* |
+| **Resources** | What they have access to | *Iron*, *Wood*, *Magic*, *Silk*, *Ash* |
+| **Grudges** | Who they hate | *Faction X* (historical grievance), *Faction Y* (resource competition) |
+| **Alliances** | Who they trust | *Faction Z* (shared enemy), *Faction W* (trade partners) |
+| **Crisis** | What is threatening them | *Famine*, *Civil War*, *Dungeon Uprising*, *Leadership Crisis* |
+
+### Sample Civilization — The Kingdom of Aethelgard
+
+```
+CIVILIZATION: AETHELGARD
+TYPE: Old Kingdom (300 years)
+GOVERNMENT: Monarchy (Decaying)
+VALUES: Wealth, Order, Control
+RESOURCES: Iron, Stone, Mana (ley-lines)
+GRUDGES: The Chorus of Stillbone (destabilizers), The Root-Gnawers (terrorists)
+ALLIANCES: The Weavers (trade), The Adventurer's Guild (military support)
+CRISIS: Leadership Vacuum (King Harald IV is sickly and heirless)
+INTERNAL FACTION: The Forge-Mother's Forge (wants to overthrow the Crown)
+```
+
+### Sample Civilization — The Chorus of Stillbone
+
+```
+CIVILIZATION: CHORUS OF STILLBONE
+TYPE: Cult (50 years)
+GOVERNMENT: Theocracy (Lich-led)
+VALUES: Undeath, Order, Evolution
+RESOURCES: Necrotic Essence, Bones, Ash
+GRUDGES: The Ashen Covenant (descendants), The Crown (opposition)
+ALLIANCES: None (pariahs)
+CRISIS: Exposed to the world; must complete ritual before being stopped
+INTERNAL FACTION: The Flesh-Bound (want to ascend to undeath immediately)
+```
+
+### Sample Civilization — The Root-Gnawers
+
+```
+CIVILIZATION: ROOT-GNAWERS
+TYPE: Radical Sect (2,000 years)
+GOVERNMENT: Council of Elders (The Green Voice)
+VALUES: Nature, Purity, Pruning
+RESOURCES: Wood, Fungi, Poison
+GRUDGES: All civilizations (disease to be cured)
+ALLIANCES: None (isolationist)
+CRISIS: Blighted by their own plague; lost control
+INTERNAL FACTION: The Severed (want to annihilate everything, not just civilizations)
+```
+
+### Sample Civilization — The Weavers (Silk Spires)
+
+```
+CIVILIZATION: SILK SPIRES
+TYPE: Merchant Republic (3,000 years)
+GOVERNMENT: Matriarchal Council
+VALUES: Order, Trade, Efficiency
+RESOURCES: Silk, Knowledge, Technology
+GRUDGES: The Root-Gnawers (threaten trade routes), The Chorus of Stillbone (disrupt order)
+ALLIANCES: The Crown (trade), The Adventurer's Guild (protection)
+CRISIS: Losing trade to the Blightmarsh expansion
+INTERNAL FACTION: The Isolationists (want to close borders)
+```
+
+### Sample Civilization — Frostholme (Dwarven Mountain-Hold)
+
+```
+CIVILIZATION: FROSTHOLME
+TYPE: Dwarven Hold (1,000 years)
+GOVERNMENT: Council of Elders
+VALUES: Craftsmanship, Tradition, Greed
+RESOURCES: Iron, Gold, Stone
+GRUDGES: The Chorus of Stillbone (desecrate graves), The Crown (trading disputes)
+ALLIANCES: The Adventurer's Guild (military), The Weavers (tools)
+CRISIS: Deep-mining has struck an ancient evil—something from the Dungeon's Abyss
+INTERNAL FACTION: The Deep-Miners (want to continue digging, regardless of risk)
+```
+
+---
+
+## PART 3: DYNAMIC WORLD EVENTS — DWARF FORTRESS STYLE
+
+> *"Losing is fun. Losing is history. Losing is a story that will be told for generations."*
+
+### Event Type 1: Civil War
+
+**Trigger:** A civilization's internal faction reaches a critical mass of power.
+
+**Example:** The Forge-Mother's Forge overthrows the Crown.
+
+| Phase | Duration | State | World Signs | Player Effects |
+|-------|----------|-------|-------------|----------------|
+| 1 | 5-10 days | **Whispers** — Faction leaders meet secretly | NPCs speak of "change coming," nobles act nervous | Hints from black market, hidden quests |
+| 2 | 3-5 days | **The Spark** — An assassination, a public execution, a riot | Faction troops march in the streets, smoke rises | Fighting in the streets, blockaded areas |
+| 3 | 1-3 days | **The Siege** — The city is at war | Barricades, burning buildings, constant battle | Player must choose sides (or flee) |
+| 4 | Days to weeks | **The Aftermath** — New ruler, new regime | Executions, celebrations, rebuilding | Reputation changes, new faction leaders, quest changes |
+
+**Branching Outcomes:**
+
+| Outcome | Description |
+|---------|-------------|
+| **Crown Wins** | Status quo maintained, but weakened. The Forge-Mother's Forge is destroyed or driven underground. |
+| **Forge Wins** | New militaristic regime. The Crown is overthrown. Adventurers are now soldiers. |
+| **Stalemate** | City is divided. Two regimes exist side by side. Constant skirmishes. |
+| **Third Party Wins** | A third faction (e.g., The Church of The Observer) seizes power during the chaos. |
+| **Collapse** | The city falls. Refugees flee. Aethelgard becomes a ruin. |
+
+---
+
+### Event Type 2: Faction Annihilation
+
+**Trigger:** One civilization conquers another, or a civilization collapses from internal strife.
+
+**Example:** The Root-Gnawers finally succeed in destroying the Verdant Valley.
+
+| Phase | Duration | State | World Signs | Player Effects |
+|-------|----------|-------|-------------|----------------|
+| 1 | 10-20 days | **Harvest** — The Root-Gnawers release a new, deadlier blight | Crops wither instantly, farmers panic | Food prices skyrocket, starvation begins |
+| 2 | 5-10 days | **Exodus** — The valley's population flees | Refugee caravans, abandoned villages | Overcrowded cities, disease spreads |
+| 3 | 1-5 days | **The Burning** — The Root-Gnawers burn the valley | Smoke visible for 100 miles, ash rains down | The valley is uninhabitable for generations |
+| 4 | Weeks to months | **Aftermath** — The valley is a wasteland | Survivors form diaspora, new factions emerge | New quests: rebuild, retaliate, or abandon |
+
+**Branching Outcomes:**
+
+| Outcome | Description |
+|---------|-------------|
+| **Valley Survives** | Player or factions stop the blight. The valley recovers. |
+| **Valley Falls** | The valley is gone. Three kingdoms starve. |
+| **Root-Gnawers Fall** | Player or factions destroy the Root-Gnawers. The valley is saved. |
+| **Third Party** | Another faction (e.g., The Weavers) intervenes, saving the valley in exchange for control. |
+
+---
+
+### Event Type 3: Dungeon Uprising
+
+**Trigger:** The Dungeon's monsters become more aggressive, spilling onto the surface.
+
+**Example:** A Monster Rex escapes Floor 17 and rampages across the Heartlands.
+
+| Phase | Duration | State | World Signs | Player Effects |
+|-------|----------|-------|-------------|----------------|
+| 1 | 3-5 days | **Rumbles** — Unusual tremors, monsters seen near the Fissure | Dungeon Divers return with horrific tales | Adventurer's Guild is on high alert |
+| 2 | 1-3 days | **The Breach** — A Monster Rex emerges from the Fissure | A giant appears on the surface, destruction begins | Quests to stop it, cities under siege |
+| 3 | 1-5 days | **The Ram** page | The Monster Rex rampages across the landscape | Multiple settlements attacked, factions unite to stop it |
+| 4 | Variable | **The Hunt** — Adventurers and armies hunt the Monster Rex | A massive hunt party, the Monster Rex is tracked | Player can join the hunt, or watch |
+| 5 | Aftermath | **The Aftermath** — The Monster Rex is slain (or not) | Ruins, deaths, heroes celebrated | The world is permanently changed |
+
+**Branching Outcomes:**
+
+| Outcome | Description |
+|---------|-------------|
+| **Monster Rex Slain** | The creature is defeated. Heroes emerge. The Dungeon respects the victory. |
+| **Monster Rex Survives** | The creature is driven back to the Dungeon. It becomes a recurring threat. |
+| **Multiple Exits** | More Monster Rexes emerge. A full-scale Dungeon uprising begins. |
+| **The Xenos** | The sentient monsters intervene, either helping or hindering. |
+
+---
+
+### Event Type 4: Ecological Catastrophe
+
+**Trigger:** A civilization's resource extraction causes irreversible environmental damage.
+
+**Example:** Frostholme's deep-mining awakens something that poisons the surrounding lands.
+
+| Phase | Duration | State | World Signs | Player Effects |
+|-------|----------|-------|-------------|----------------|
+| 1 | 10-30 days | **Digging Deeper** — Frostholme's miners go too deep | Strange sounds from the depths, glowing rocks | Dwarven NPCs become anxious |
+| 2 | 5-10 days | **The Awakening** — Something ancient and terrible is released | A dark gas rises from the mines, poisoning the surface | Wildlife dies, crops wither, sickness spreads |
+| 3 | 1-5 days | **The Spreading** — The poison spreads beyond Frostholme | The gas cloud expands, villages are evacuated | Entire regions become uninhabitable |
+| 4 | Weeks to months | **Aftermath** — The land is permanently scarred | Refugees, new wastelands, lost history | New quests: find a cure, seal the mines, or flee |
+
+**Branching Outcomes:**
+
+| Outcome | Description |
+|---------|-------------|
+| **The Mine is Sealed** | The Dwarves seal the deep mine, but the poison remains. |
+| **The Poison is Cured** | A cure is found (possibly from the Root-Gnawers' knowledge). |
+| **The Evil Emerges** | The poison is the precursor to something worse—a new enemy emerges. |
+| **Frostholme Falls** | The city is abandoned. The Dwarves become a nomadic people. |
+
+---
+
+### Event Type 5: Religious Schism
+
+**Trigger:** A god's followers split over an interpretation of their doctrine.
+
+**Example:** The Church of The Observer splits into two sects—the "Record Keepers" and the "Interventionists."
+
+| Phase | Duration | State | World Signs | Player Effects |
+|-------|----------|-------|-------------|----------------|
+| 1 | 5-15 days | **The Debate** — Priests argue over doctrine | Religious NPCs speak of "heresy" and "revelation" | Quests to gather holy texts |
+| 2 | 3-5 days | **The Schism** — The Church divides | Two churches, two doctrines, two leaders | Player must choose a side (or stay neutral) |
+| 3 | 1-3 days | **The Conflict** — Violence erupts between the sects | Riots, burning churches, assassinations | The city is divided; loyalties are tested |
+| 4 | Aftermath | **The Aftermath** — One sect wins, or both survive | New doctrine, new power structures | Reputation changes, new quests |
+
+**Branching Outcomes:**
+
+| Outcome | Description |
+|---------|-------------|
+| **Record Keepers Win** | The Church remains passive. The Interventionists are exiled. |
+| **Interventionists Win** | The Church becomes active. They start intervening in worldly affairs. |
+| **Both Survive** | Two churches exist. Future conflict is inevitable. |
+| **Third Party** | A new sect emerges, combining both doctrines. |
+
+---
+
+### Event Type 6: Hero Emergence
+
+**Trigger:** A random NPC performs a heroic act and becomes a famous figure.
+
+**Example:** A farmer's daughter discovers she has a Unique Skill and begins fighting monsters.
+
+| Phase | Duration | State | World Signs | Player Effects |
+|-------|----------|-------|-------------|----------------|
+| 1 | 1-3 days | **The Deed** — A notable event occurs | NPCs speak of a "miracle" or "heroic act" | The hero's name starts spreading |
+| 2 | 3-10 days | **The Rise** — The hero gains followers | The hero appears in public, gathering attention | Quests to meet the hero, join their cause |
+| 3 | 10-30 days | **The Quest** — The hero undertakes a major quest | The hero's exploits are celebrated | The hero may ask for the player's help |
+| 4 | Aftermath | **The Aftermath** — The hero succeeds or fails | The hero becomes a legend or a tragedy | The world is changed; the hero becomes a faction leader |
+
+**Branching Outcomes:**
+
+| Outcome | Description |
+|---------|-------------|
+| **Hero Succeeds** | The hero achieves their goal. They become a powerful ally. |
+| **Hero Fails** | The hero dies or is broken. Their followers mourn (or seek revenge). |
+| **Hero Turns** | The hero is corrupted. They become a villain. |
+| **Player Influences** | The player can mentor, ally with, or oppose the hero. |
+
+---
+
+### Event Type 7: Forgotten Beast Awakening
+
+**Trigger:** A deep exploration uncovers a forgotten beast from a past age.
+
+**Example:** A miner in the Ashlands unearths the "Soul-Eating Worm"—a creature from the Age of Embers.
+
+| Phase | Duration | State | World Signs | Player Effects |
+|-------|----------|-------|-------------|----------------|
+| 1 | 1-3 days | **Discovery** — Something ancient is found | NPCs speak of "something terrible" or "something wondrous" | Quests to investigate the discovery |
+| 2 | 1-5 days | **The Awakening** — The beast awakens | Tremors, strange weather, nightmares | The beast is seen (or felt) by many |
+| 3 | Variable | **The Hunt** — Adventurers and armies hunt the beast | Massive expeditions, deaths, chaos | Player can join the hunt |
+| 4 | Aftermath | **The Aftermath** — The beast is slain (or not) | Legendary rewards, permanent changes to the landscape | The world is marked by the beast's passage |
+
+**Branching Outcomes:**
+
+| Outcome | Description |
+|---------|-------------|
+| **Beast Slain** | The creature is destroyed. Its parts become legendary materials. |
+| **Beast Survives** | The creature retreats to a hidden lair. It becomes a recurring threat. |
+| **Beast is Befriended** | The creature is tamed (if Xenos-like). It becomes a powerful ally. |
+| **Beast Escapes** | The creature leaves the region. It may appear elsewhere. |
+
+---
+
+## PART 4: WORLD EVENT CASCADES
+
+> *"One event is a story. Two events are a pattern. Three events are a world."*
+
+### Cascade Example 1: The Fall of Frostholme
+
+```
+EVENT A: The Dwarves dig too deep (Ecological Catastrophe)
+    ↓
+EVENT B: The deep-mining awakens a Forgotten Beast (Forgotten Beast Awakening)
+    ↓
+EVENT C: The Beast destroys Frostholme (Faction Annihilation)
+    ↓
+EVENT D: The Dwarven refugees flood into Aethelgard (Population Migration)
+    ↓
+EVENT E: The refugees bring a strange sickness (Plague Event)
+    ↓
+EVENT F: The Crown blames the refugees, causing a Civil War (Civil War)
+```
+
+### Cascade Example 2: The Root-Gnawer Resurgence
+
+```
+EVENT A: The Root-Gnawers release a new blight (Ecological Catastrophe)
+    ↓
+EVENT B: The Verdant Valley starves (Ecological Catastrophe)
+    ↓
+EVENT C: The Crown blames the Weavers (Religious Schism)
+    ↓
+EVENT D: War breaks out between the Crown and the Weavers (Civil War)
+    ↓
+EVENT E: The Root-Gnawers take advantage of the chaos (Faction Annihilation)
+    ↓
+EVENT F: The world is plunged into a new dark age (Dark Age Event)
+```
+
+### Cascade Example 3: The Dragon's Return
+
+```
+EVENT A: The Chorus of Stillbone gathers power (Religious Schism)
+    ↓
+EVENT B: The cult awakens Vorthax (Dungeon Uprising)
+    ↓
+EVENT C: Vorthax rampages across the Heartlands (Faction Annihilation)
+    ↓
+EVENT D: The Ashen Covenant reforms (Hero Emergence)
+    ↓
+EVENT E: The Covenant and the Cult clash (Civil War)
+    ↓
+EVENT F: The player must choose a side (Player Decision Point)
+```
+
+---
+
+## PART 5: WORLD MEMORY & HISTORY SYSTEM
+
+> *"The world remembers. The world forgets. The world tells stories."*
+
+### History Storage System
+
+Every major event is stored in the **World History Database**:
+
+| Field | Description |
+|-------|-------------|
+| **Event ID** | Unique identifier |
+| **Event Type** | Civil War, Faction Annihilation, Dungeon Uprising, etc. |
+| **Date** | In-game timestamp |
+| **Location** | Where it happened |
+| **Actors** | Who was involved |
+| **Outcome** | What happened |
+| **Consequences** | How the world was changed |
+| **Legacy** | The story that is told about this event |
+
+### History Generation Example
+
+```
+EVENT ID: E-0001
+TYPE: Civilization Founding
+DATE: Year 1, Age of Kingdoms
+LOCATION: Frostholme
+ACTORS: The Dwarven People
+OUTCOME: Frostholme was founded.
+CONSEQUENCES: The Dwarves became a major power in the Northern Reaches.
+LEGACY: "The Mountain-Father carved a home from stone, and the Dwarves became his children."
+
+EVENT ID: E-0142
+TYPE: Dungeon Uprising
+DATE: Year 143, Age of Kingdoms
+LOCATION: The Outer Fissure
+ACTORS: The Dungeon Divers, The Black Terror (Monster Rex)
+OUTCOME: The Black Terror was slain, but it cost 50 lives.
+CONSEQUENCES: The Divers became a formal organization.
+LEGACY: "The Black Terror's bones now hang in the guild hall. We do not forget."
+
+EVENT ID: E-0289
+TYPE: Civil War
+DATE: Year 289, Age of Kingdoms
+LOCATION: Aethelgard
+ACTORS: The Crown, The Forge-Mother's Forge
+OUTCOME: The Crown won, but was weakened.
+CONSEQUENCES: The Forge-Mother's Forge went underground.
+LEGACY: "The Forge-Mother's children still walk among us. They have not forgotten."
+```
+
+### History's Mechanical Effect
+
+- **Faction Memory:** Factions remember events that affected them. This affects their behavior (trust, hostility, alliances).
+- **NPC Memory:** NPCs remember events they witnessed. This affects their dialogue, quests, and relationships.
+- **Cultural Memory:** Events become part of a civilization's culture. This affects their values, goals, and symbols.
+- **Player Memory:** The player can access the history database, learning about the world's past. This can unlock hidden quests and knowledge.
+
+---
+
+## PART 6: NPC AGENTS — DWARF FORTRESS STYLE
+
+> *"Every NPC is a person. Every person has a story. Every story is a tragedy waiting to happen."*
+
+### NPC Agent System
+
+NPCs are generated with the following traits:
+
+| Trait | Description |
+|-------|-------------|
+| **Name** | Generated from racial naming conventions |
+| **Race** | Human, Beastfolk, Ash-Kin, etc. |
+| **Occupation** | Farmer, Soldier, Merchant, Scholar, etc. |
+| **Personality** | Brave, Cowardly, Greedy, Generous, etc. |
+| **Goals** | What they want to achieve (short and long term) |
+| **Relationships** | Family, friends, rivals, enemies |
+| **Status** | Alive, Dead, Missing, etc. |
+| **History** | Notable events they've experienced |
+
+### Sample NPC
+
+```
+NPC: ELARA VEX
+Race: Human
+Occupation: Captain of the Millford Militia
+Personality: Pragmatic, Weary, Haunted
+Goals: Protect Millford, Resist the Cult, Survive
+Relationships: 
+    - Daughter of the Ashen Covenant (bloodline)
+    - Rival of Merrik the Silent (enemy)
+    - Respects the player (if they help)
+Status: Alive
+History:
+    - Watched her father die in the first ashfall
+    - Has held off two cult assaults
+    - Dreams of Vorthax's return
+```
+
+### NPC Simulation
+
+NPCs in Genesis follow a Dwarf Fortress-style simulation:
+
+1. **Goal Selection:** Each NPC evaluates their goals based on their personality, status, and environment.
+2. **Planning:** NPCs generate plans to achieve their goals (GOAP system).
+3. **Execution:** NPCs execute their plans in real time.
+4. **Memory:** NPCs remember events and learn from them.
+5. **Evolution:** NPCs can change over time (gain new goals, develop new relationships, die).
+
+### Example NPC Behavior
+
+**Merrik the Silent (Lich, Cult Leader):**
+1. **Goal:** Resurrect Vorthax.
+2. **Plan:** Gather souls → Complete ritual → Awaken Vorthax.
+3. **Execution:** Send cultists to Millford → Sacrifice souls → Ritual begins.
+4. **Memory:** Remembers previous attempts (and failures).
+5. **Evolution:** Will adapt if the player interferes.
+
+**Captain Elara Vex:**
+1. **Goal:** Protect Millford.
+2. **Plan:** Fortify walls → Train militia → Send for aid.
+3. **Execution:** Coordinates defense, patrols, prays.
+4. **Memory:** Remembers the player's actions (help or hinder).
+5. **Evolution:** Will become embittered (if failed) or grateful (if helped).
+
+---
+
+## PART 7: THE WORLD SYSTEM — HIDDEN MECHANICS
+
+> *"The world is not a backdrop. It is a machine. And machines have rules."*
+
+### The World Clock
+
+The world operates on a hidden simulation clock:
+
+| Tick Type | Frequency | Purpose |
+|-----------|-----------|---------|
+| **Combat Tick** | 0.1 seconds | Real-time combat and physics |
+| **NPC Tick** | 1 second | NPC movement, dialogue, simple actions |
+| **Economy Tick** | 1 hour | Resource production, trade, prices |
+| **Day Tick** | 24 hours | Settlement growth, weather, NPC needs |
+| **Month Tick** | 30 days | Faction actions, political events |
+| **Year Tick** | 365 days | Civilizations, wars, major events |
+
+### The Hidden Variables
+
+The world has hidden variables that affect everything:
+
+| Variable | Description |
+|----------|-------------|
+| **World Stability** | How stable the world is (chaos vs. order) |
+| **Dungeon Activity** | How active the Dungeon is (dormant vs. furious) |
+| **God Attention** | How much the gods are watching (uninterested vs. fascinated) |
+| **Crisis Potential** | The likelihood of major events occurring |
+| **Faction Trust** | How much factions trust each other |
+| **Resource Scarcity** | How scarce resources are (global) |
+
+### The Cascade Algorithm
+
+Events cascade when multiple variables align:
+
+```
+STABILITY LOW + DUNGEON ACTIVITY HIGH + CRISIS POTENTIAL HIGH → 
+    → MONSTER REX UPRISING → 
+        → FACTION TRUST LOW → 
+            → NO ALLIANCE AGAINST THE THREAT → 
+                → CIVILIZATION COLLAPSES → 
+                    → WORLD STABILITY DROPS FURTHER
+```
+
+---
+
+## PART 8: EVENT CHAIN TEMPLATES
+
+### Template 1: The Food Crisis
+
+| Phase | Description | World Signs | Player Effects |
+|-------|-------------|-------------|----------------|
+| 1 | **Shortage** — A blight, a drought, or a war disrupts food production | Food prices rise, NPCs complain | Basic quests: find food, secure supply lines |
+| 2 | **Famine** — Food becomes scarce | Hunger, riots, refugee camps | Morality quests: help or hoard |
+| 3 | **Starvation** — People begin to die | Deaths, desperation, cannibalism | Hero quests: lead a relief expedition |
+| 4 | **Collapse** — The affected civilization falls | Refugees, new factions, wastelands | Rebuilding quests: found a new settlement |
+
+### Template 2: The Monster Siege
+
+| Phase | Description | World Signs | Player Effects |
+|-------|-------------|-------------|----------------|
+| 1 | **Rumors** — Monsters are seen gathering | NPCs speak of fear, adventurers return with stories | Investigation quests |
+| 2 | **The Siege Begins** — Monsters attack a settlement | Walls breached, people die, smoke rises | Combat quests: defend the settlement |
+| 3 | **The Retreat** — If the settlement falls, monsters advance | Refugees, burning villages | Retreat quests: guide survivors |
+| 4 | **Counterattack** — The players and factions strike back | Heroes emerge, armies march | Campaign quests: destroy the monster camp |
+
+### Template 3: The Hero's Journey
+
+| Phase | Description | World Signs | Player Effects |
+|-------|-------------|-------------|----------------|
+| 1 | **The Call** — An NPC is called to adventure | The NPC gains a Unique Skill | Mentor quests: help the NPC |
+| 2 | **The Quest** — The NPC undertakes a major journey | The NPC appears in public, gaining followers | Join quests: accompany the NPC |
+| 3 | **The Ordeal** — The NPC faces their greatest challenge | The NPC is tested, possibly killed | Save quests: rescue the NPC |
+| 4 | **The Return** — The NPC returns, changed | The NPC becomes a faction leader | Legacy quests: continue their work |
+
+### Template 4: The Scheming Cult
+
+| Phase | Description | World Signs | Player Effects |
+|-------|-------------|-------------|----------------|
+| 1 | **Whispers** — Strange cult activity is noticed | NPCs speak of unease, strange symbols appear | Investigate quests: find the cult |
+| 2 | **Growth** — The cult grows bolder | Missing people, strange rituals | Sabotage quests: disrupt the cult |
+| 3 | **The Plan** — The cult's goal becomes clear | The cult attacks, the ritual begins | Moral quests: choose a side |
+| 4 | **The Consummation** — The cult succeeds or fails | The world changes, the gods intervene | Epic quests: stop the cult, or join them |
+
+---
+
+## PART 9: THE YEAR SYSTEM
+
+> *"The world has a calendar. The calendar has years. The years have names."*
+
+### Named Years
+
+Each year in Genesis has a **name** based on the events that occurred. This makes history memorable.
+
+**Examples:**
+- **Year of the Bloody Harvest:** A year of famine and war.
+- **Year of the God's Laughter:** A year of fortune and miracles.
+- **Year of the Silent Scream:** A year of tragedy and loss.
+- **Year of the First Flame:** A year of new beginnings.
+- **Year of the Dragon's Wrath:** A year of Vorthax's rampage.
+
+### Seasonal Events
+
+Each season has its own events:
+
+| Season | Events |
+|--------|--------|
+| **Spring** | Planting, renewal, festivals |
+| **Summer** | Trade, war, monster migrations |
+| **Autumn** | Harvest, famine, preparations for winter |
+| **Winter** | Scarcity, snow, sieges (hard to attack) |
+
+---
+
+## PART 10: CIVILIZATION LIFECYCLE
+
+> *"All civilizations rise. All civilizations fall. The difference is what they leave behind."*
+
+### Civilization Lifespan
+
+| Phase | Description | Duration |
+|-------|-------------|----------|
+| **Founding** | A small group settles a new area | 1-10 years |
+| **Expansion** | The group grows, builds, and prospers | 10-50 years |
+| **Prosperity** | The group becomes a major power | 50-200 years |
+| **Complexity** | The group becomes bureaucratized, stratified | 200-500 years |
+| **Instability** | The group faces internal and external threats | 10-50 years |
+| **Decline** | The group loses power, territory, and population | 10-50 years |
+| **Collapse** | The group falls | 1-10 years |
+| **Rediscovery** | The group's ruins are discovered, its history is remembered | 100-1000 years |
+
+### Civilization Graveyard
+
+When a civilization falls, its ruins remain. These can be explored by players and NPCs:
+
+| Ruin Type | Contents |
+|-----------|----------|
+| **City Ruins** | Buildings, artifacts, lore |
+| **Tomb** | Graves, treasures, curses |
+| **Library** | Knowledge, secrets, lost skills |
+| **Fortress** | Weapons, defenses, monster lairs |
+| **Temple** | Divine blessings, curses, relics |
+
+---
+
+## PART 11: THE XENOS — A COMPLEXITY CIVILIZATION
+
+> *"The Dungeon's monsters are not mindless. They are students. And some have graduated."*
+
+### Xenos Society
+
+The Xenos are sentient monsters who have developed consciousness and free will. They refer to the Dungeon as their "mother."
+
+| Trait | Description |
+|-------|-------------|
+| **Origin** | Monsters who gained sentience through the System |
+| **Culture** | Matriarchal, communal, protective |
+| **Values** | Survival, growth, unity |
+| **Relationship** | Hostile to gods, neutral to mortals, curious about the player |
+| **Goal** | To evolve beyond the Dungeon's "curriculum" |
+
+### Xenos Cities
+
+Hidden villages within the Dungeon:
+
+| City | Location | Description |
+|------|----------|-------------|
+| **The Nest** | Floor 35 | A massive underground hive |
+| **The Warren** | Floor 42 | A network of tunnels |
+| **The Sanctuary** | Floor 58 | A place of peace and learning |
+| **The Cradle** | Floor 66 | Where new Xenos are "born" (gain sentience) |
+
+### Xenos Quests
+
+- **Protection Quests:** Protect a Xenos village from a god's fury.
+- **Diplomacy Quests:** Help the Xenos communicate with surface factions.
+- **Evolution Quests:** Help a Xenos gain a new skill or Authority.
+- **Liberation Quests:** Free a captured Xenos from adventurers.
+
+---
+
+## PART 12: THE GODS' AGENTS
+
+> *"The gods do not walk the world. They send messengers. They send avatars. They send consequences."*
+
+### Divine Intervention
+
+| Type | Description |
+|------|-------------|
+| **Divine Messenger** | An NPC blessed by a god, carrying a message or quest |
+| **Divine Avatar** | The god's physical form (rare, costly) |
+| **Divine Curse/Blessing** | A direct effect on a faction, NPC, or location |
+| **Divine Test** | A Trial designed by a god |
+
+### Divine Agencies
+
+| Agency | Description |
+|--------|-------------|
+| **The Observer's Archivists** | Agents who record history, often disguised as scholars |
+| **The Forge-Mother's Artisans** | Agents who create legendary items, often disguised as smiths |
+| **The Dungeon's Spawn** | Monsters created by the Dungeon to test or punish |
+| **The Watcher's Sentinels** | Agents who guard thresholds, often disguised as guards |
+| **The Weeping Mother's Mourners** | Agents who comfort the grieving, often disguised as nurses |
+| **The Laughing Trickster's Jesters** | Agents who spread chaos, often disguised as entertainers |
+| **The Silent Judge's Justiciars** | Agents who enforce balance, often disguised as judges |
+| **The First Flame's Embers** | Agents who encourage new beginnings, often disguised as mentors |
+
+---
+
+## PART 13: IMMEDIATE IMPLEMENTATION — VERTICAL SLICE FOCUS
+
+### Vertical Slice Events
+
+For the vertical slice, implement the following events:
+
+1. **The Ashen Cradle** (Full implementation) — Detailed in previous sections.
+2. **The Silent Harvest** (Full implementation) — Detailed in previous sections.
+3. **The Millford Emergency** (Simulation) — The Cult is gathering; the player must investigate, defend, or flee.
+4. **The Goliath's Rage** (Simulation) — The Goliath on Floor 17 is active; the player must descend to stop it.
+
+### Vertical Slice Factions
+
+| Faction | Status | Role |
+|---------|--------|------|
+| **Millford Militia** | Active | Protect Millford, investigate the Cult |
+| **Chorus of Stillbone** | Active | Prepare the ritual, infiltrate Millford |
+| **The Adventurer's Guild** | Active | Provide quests, support the player |
+| **The Crown** | Passive (background) | Uninvolved, but watching |
+| **The Root-Gnawers** | Passive (background) | Plotting in the Ashlands |
+
+### Vertical Slice Quest Hooks
+
+1. **"Whispers in the Ash":** Investigate the Blightmarsh border. (Leads to the Ashen Cradle event)
+2. **"The Empty Silo":** Investigate the crop shortages. (Leads to the Silent Harvest event)
+3. **"The Goliath's Shadow":** Descend to Floor 17 and stop the Goliath. (Leads to the Dungeon event)
+4. **"The Refugee's Plea":** Help a group of Millford refugees. (Leads to the Millford Emergency)
+
+---
+
+## PART 14: CONCLUSION — THE LIVING WORLD
+
+> *"The world is not static. It is not a backdrop. It is a character—the most important character in the game."*
+
+### Summary of Features
+
+| Feature | Description |
+|---------|-------------|
+| **Deep History** | A 10,000-year timeline with distinct Ages |
+| **Civilization Generation** | Multiple civilizations with unique traits |
+| **Dynamic Events** | 7+ event types with cascading outcomes |
+| **NPC Simulation** | Goal-driven NPCs with personality, memory, and relationships |
+| **World Clock** | Hidden simulation ticking at multiple intervals |
+| **History System** | Events stored, remembered, and used to generate future events |
+| **Xenos Society** | Sentient monsters with their own civilization |
+| **God Agents** | Divine messengers, avatars, and consequences |
+
+### The Player's Role
+
+The player is not the center of the world. They are a *student* in the Cosmic Tutorial. The world is the curriculum. The Director is the teacher. The player writes the history.
+
+### The World is Alive
+
+- Factions war and ally.
+- Economies boom and collapse.
+- Heroes rise and fall.
+- Gods watch and intervene.
+- The Dungeon teaches and punishes.
+- And every action—or inaction—has consequences.
+
+---
+
+**PROJECT GENESIS — EMERGENT WORLD LORE & DYNAMIC EVENTS**
+
+**Ready for Implementation**
+
+---
+
+### Next Steps
+
+1. **Implement Civilization Generation** — Create the random generator that creates civilizations with traits.
+2. **Implement Event Cascades** — Build the system that triggers events based on world variables.
+3. **Implement NPC Agents** — Build the system that simulates NPC goals, planning, and execution.
+4. **Implement the World Clock** — Build the tick system that drives the simulation.
+5. **Implement the History System** — Build the database that stores and recalls events.
+6. **Integrate with the Director** — The Director should curate quests from generated events.
+
+---
+
+*Let's build this world. Go!*

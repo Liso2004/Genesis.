@@ -1,0 +1,884 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-lisow" at "2026-09-20T17:39:14.2487015Z"
+[Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 9944, path: "C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] Error: LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.16.2+bdef8f5
+  Session Id:              424287842ede4bb78b4b1cbcba738dc3
+  Correlation Id:          56fb80dfd7c0ec790264c468a5032e12
+  External correlation Id: 1617002438557039558
+  Machine Id:              SijgUvsyLzMNscN+AGudKro/Egg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lisow" (connect: 0.00s, validation: 2.76s, handshake: 0.76s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-lisow-notifications" at "2026-09-20T17:39:17.7687156Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Error: Code 500 while processing request (status: Unable to update licenses. Errors: Machine bindings don't match,Token not found in cache)
+[Licensing::Client] Error: Code 500 while updating license in client (status: Unable to update licenses. Errors: Machine bindings don't match,Token not found in cache)
+Built from '6000.0/release' branch; Version is '6000.0.35f1 (9a3bc604008a) revision 10107846'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 16271 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "11270236121260-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:\Users\lisow\Genesis
+-executeMethod
+Genesis.Character.Editor.PlayerLocomotionMigration.RunBatch
+-quit
+-logFile
+C:\Users\lisow\Genesis\Validation\GenesisMovement\Workspace-Migration.log
+Successfully changed project path to: C:\Users\lisow\Genesis
+C:/Users/lisow/Genesis
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26284]  Target information:
+
+Player connection [26284]  * "[IP] 10.213.61.197 [Port] 55504 [Flags] 2 [Guid] 3054744900 [EditorId] 3054744900 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AN4QGFJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26284] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-12916" after 6.1 seconds.
+Library Redirect Path: Library/
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 56 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.31 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.ide.rider@7921be93db40)
+    com.unity.ide.visualstudio@2.0.22 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e)
+    com.unity.inputsystem@1.11.2 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.inputsystem@3c4a97c3950f)
+    com.unity.test-framework@1.4.5 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.test-framework@0a21eb82d95c)
+    com.unity.timeline@1.8.7 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.timeline@c58b4ee65782)
+    com.unity.visualscripting@1.9.5 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.visualscripting@1b53f46e931b)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd)
+    com.unity.searcher@4.9.2 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.searcher@90d011a70418)
+    com.unity.burst@1.8.18 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.burst@616862665d8c)
+    com.unity.mathematics@1.3.2 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.collections@2.5.1 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.collections@56bff8827a7e)
+    com.unity.nuget.mono-cecil@1.11.4 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f)
+    com.unity.test-framework.performance@3.0.3 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.test-framework.performance@fb0dc592af8b)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.0 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.multiplayer.center@f502d8ac613f)
+    com.unity.render-pipelines.universal@17.0.3 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.render-pipelines.universal@39c80789bb81)
+    com.unity.ugui@2.0.0 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.ugui@24b10291b18f)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.render-pipelines.core@17.0.3 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.render-pipelines.core@a50b3570474f)
+    com.unity.shadergraph@17.0.3 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.shadergraph@911117698220)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.render-pipelines.universal-config@fa63c96d3e1a)
+    com.unity.rendering.light-transport@1.0.1 (location: C:\Users\lisow\Genesis\Library\PackageCache\com.unity.rendering.light-transport@307bc27a498f)
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 10.43 seconds
+Refreshing native plugins compatible for Editor in 17002.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.35f1 (9a3bc604008a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lisow/Genesis/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+[Licensing::Client] Successfully resolved entitlement details
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.269723 seconds.
+- Loaded All Assemblies, in 73.298 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.819 seconds
+Domain Reload Profiling: 77147ms
+	BeginReloadAssembly (62901ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (203ms)
+	RebuildCommonClasses (3859ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (1963ms)
+	LoadAllAssembliesAndSetupDomain (4515ms)
+		LoadAssemblies (62526ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4440ms)
+			TypeCache.Refresh (4363ms)
+				TypeCache.ScanAssembly (3299ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (3852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3635ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (313ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (965ms)
+			ProcessInitializeOnLoadAttributes (1648ms)
+			ProcessInitializeOnLoadMethodAttributes (703ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Connectivity with IL Post Processor runner cannot be established yet. Retrying.Starting: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/lisow/Genesis
+[Licensing::Client] Successfully resolved entitlement details
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 42s
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (42.35 seconds), 0 items updated, 452 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/lisow/Genesis
+ExitCode: 0 Duration: 4m:19s
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/lisow/Genesis
+ExitCode: 0 Duration: 6m:54s
+Finished compiling graph: 850 nodes, 14083 flattened edges (11677 ToBuild, 134 ToUse), maximum node priority 876
+[BUSY       1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY       7s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       7s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY       7s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY       8s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       8s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY       8s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY       9s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       9s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY       9s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      10s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      10s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      10s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      11s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      11s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      11s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      12s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      12s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      12s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      13s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      13s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      13s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      14s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      14s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      14s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      15s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      15s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      15s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      16s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      16s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      16s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      17s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      17s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      17s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      18s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      18s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      18s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      19s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      19s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      19s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      20s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      20s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      20s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      21s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      21s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      21s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      22s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      22s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      22s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      23s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      23s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      23s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      24s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      24s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      24s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      25s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      25s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      25s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      26s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      26s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      26s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      27s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      27s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      27s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      28s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      28s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      28s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      29s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      29s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      29s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      30s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      30s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      30s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      31s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      31s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      31s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      32s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      32s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      32s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      33s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      33s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      33s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      34s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      34s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      34s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      35s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      35s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      35s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      36s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      36s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      36s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      37s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      37s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      37s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[658/847   38s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY      43s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      48s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      53s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      58s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      63s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      68s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      73s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      78s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      83s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      88s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY      93s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY      99s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     104s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     109s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     114s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     119s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     124s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     129s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     134s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     139s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     144s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     149s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     154s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     159s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     164s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     169s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     174s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     179s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     184s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     189s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     195s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     200s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     205s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     210s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     215s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     220s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     225s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     230s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     235s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     240s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     245s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     250s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     255s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     260s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     265s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[BUSY     270s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[BUSY     275s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[827/847   278s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll (+2 others)
+[828/847   278s] Csc Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll (+2 others)
+[832/847    2s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Genesis.Skill.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Genesis.Skill.dll, with 128 defines and 257 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[833/847    2s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Genesis.Core.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Genesis.Core.dll, with 128 defines and 256 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[834/847    2s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Genesis.NPC.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Genesis.NPC.dll, with 128 defines and 258 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[835/847    3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Genesis.Character.Tests.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Genesis.Character.Tests.dll, with 128 defines and 244 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[840/847    0s] CopyFiles Library/ScriptAssemblies/Genesis.Core.dll
+[841/847    0s] CopyFiles Library/ScriptAssemblies/Genesis.Character.Tests.pdb
+[842/847    0s] CopyFiles Library/ScriptAssemblies/Genesis.Core.pdb
+[843/847    0s] CopyFiles Library/ScriptAssemblies/Genesis.Character.Tests.dll
+[BUSY       9s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+[BUSY      19s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+[BUSY      29s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+[844/847   38s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 128 defines and 297 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+*** Tundra build success (410.01 seconds - 0:06:50), 12 items updated, 847 evaluated
+AssetDatabase: script compilation time: 868.812574s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in 70.318 seconds
+Refreshing native plugins compatible for Editor in 914.46 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 151.872 seconds
+Domain Reload Profiling: 222185ms
+	BeginReloadAssembly (5337ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (231ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2260ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (3482ms)
+	LoadAllAssembliesAndSetupDomain (61429ms)
+		LoadAssemblies (58033ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5583ms)
+			TypeCache.Refresh (5399ms)
+				TypeCache.ScanAssembly (5304ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (131ms)
+	FinalizeReload (151872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (117057ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (87955ms)
+			ProcessInitializeOnLoadMethodAttributes (28944ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1714.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=25640150c8d69f64dbcfeb88bdc18a1b): Total: 1258.484 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=260059 ms
+		Asset DB Callback time: managed=40784 ms, native=17457 ms
+		Scripting: domain reloads=1, domain reload time=71060 ms, compile time=868814 ms, other=72 ms
+		Project Asset Count: scripts=1477, non-scripts=12621
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.006ms
+	InvokePackagesCallback: 1509.195ms
+	ApplyChangesToAssetFolders: 0.777ms
+	Scan: 4434.576ms
+	OnSourceAssetsModified: 15.330ms
+	CategorizeAssetsWithTransientArtifact: 13480.426ms
+	ProcessAssetsWithTransientArtifactChanges: 1355.927ms
+	CategorizeAssets: 45097.333ms
+	ImportOutOfDateAssets: 154049.203ms (-715157.558ms without children)
+		CompileScripts: 868814.180ms
+		ReloadNativeAssets: 0.049ms
+		UnloadImportedAssets: 229.254ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.971ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 160.305ms
+	PostProcessAllAssets: 56331.478ms
+	Hotreload: 2168.271ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.002ms
+	UnloadStreamsBegin: 0.950ms
+	PersistCurrentRevisions: 0.360ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 4.008ms
+	Untracked: 980039.873ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 547.531ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Genesis
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6538 unused Assets / (5.1 MB). Loaded Objects now: 7206.
+Memory consumption went from 238.9 MB to 233.9 MB.
+Total: 1524.269900 ms (FindLiveObjects: 0.721500 ms CreateObjectMapping: 0.303400 ms MarkObjects: 1520.131800 ms  DeleteObjects: 3.111800 ms)
+
+[Genesis migration] Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx: HumanM@Idle01, duration=2,7, loop=True, averageSpeed=(0.00, 0.00, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Genesis.Character.Editor.PlayerLocomotionMigration:Clip (string) (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:99)
+Genesis.Character.Editor.PlayerLocomotionMigration:BuildAnimator () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:123)
+Genesis.Character.Editor.PlayerLocomotionMigration:RunBatch () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:26)
+
+(Filename: Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs Line: 99)
+
+[Genesis migration] Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Forward.fbx: HumanM@Walk01_Forward, duration=0,8000001, loop=True, averageSpeed=(0.00, 0.00, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Genesis.Character.Editor.PlayerLocomotionMigration:Clip (string) (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:99)
+Genesis.Character.Editor.PlayerLocomotionMigration:BuildAnimator () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:124)
+Genesis.Character.Editor.PlayerLocomotionMigration:RunBatch () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:26)
+
+(Filename: Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs Line: 99)
+
+[Genesis migration] Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Forward.fbx: HumanM@Run01_Forward, duration=0,6, loop=True, averageSpeed=(0.00, 0.00, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Genesis.Character.Editor.PlayerLocomotionMigration:Clip (string) (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:99)
+Genesis.Character.Editor.PlayerLocomotionMigration:BuildAnimator () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:125)
+Genesis.Character.Editor.PlayerLocomotionMigration:RunBatch () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:26)
+
+(Filename: Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs Line: 99)
+
+[Genesis migration] Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Forward.fbx: HumanM@Sprint01_Forward, duration=0,5333334, loop=True, averageSpeed=(0.00, 0.00, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Genesis.Character.Editor.PlayerLocomotionMigration:Clip (string) (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:99)
+Genesis.Character.Editor.PlayerLocomotionMigration:BuildAnimator () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:126)
+Genesis.Character.Editor.PlayerLocomotionMigration:RunBatch () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:26)
+
+(Filename: Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs Line: 99)
+
+[Genesis migration] Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Begin.fbx: HumanM@Jump01 - Begin, duration=0,6666667, loop=False, averageSpeed=(0.00, 0.00, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Genesis.Character.Editor.PlayerLocomotionMigration:Clip (string) (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:99)
+Genesis.Character.Editor.PlayerLocomotionMigration:BuildAnimator () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:134)
+Genesis.Character.Editor.PlayerLocomotionMigration:RunBatch () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:26)
+
+(Filename: Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs Line: 99)
+
+[Genesis migration] Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Fall01.fbx: HumanM@Fall01, duration=1, loop=True, averageSpeed=(0.00, 0.00, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Genesis.Character.Editor.PlayerLocomotionMigration:Clip (string) (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:99)
+Genesis.Character.Editor.PlayerLocomotionMigration:BuildAnimator () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:136)
+Genesis.Character.Editor.PlayerLocomotionMigration:RunBatch () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:26)
+
+(Filename: Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs Line: 99)
+
+[Genesis migration] Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Land.fbx: HumanM@Jump01 - Land, duration=0,6, loop=False, averageSpeed=(0.00, 0.00, 0.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Genesis.Character.Editor.PlayerLocomotionMigration:Clip (string) (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:99)
+Genesis.Character.Editor.PlayerLocomotionMigration:BuildAnimator () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:138)
+Genesis.Character.Editor.PlayerLocomotionMigration:RunBatch () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:26)
+
+(Filename: Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs Line: 99)
+
+Start importing Assets/Genesis/Character/Animatinos/PlayerAnimator.controller using Guid(dcfef7f32d316644cb7ad65165b56454) (NativeFormatImporter) -> (artifact id: '66f8e3ae57dffe86ff72e4503f708cdb') in 2.3605772 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=64bd438f7dfbc7e47898ff6b57001a63): Total: 8.923 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=342 ms, native=8395 ms
+		Asset DB Callback time: managed=180 ms, native=5 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1477, non-scripts=12621
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 5
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.122ms
+	Scan: 3484.863ms
+	OnSourceAssetsModified: 0.851ms
+	CategorizeAssetsWithTransientArtifact: 0.015ms
+	ProcessAssetsWithTransientArtifactChanges: 0.121ms
+	CategorizeAssets: 69.081ms
+	ImportOutOfDateAssets: 4995.097ms (0.461ms without children)
+		ImportManagerImport: 4754.938ms (2.745ms without children)
+			ImportInProcess: 4752.154ms
+			UpdateCategorizedAssets: 0.039ms
+		ReloadNativeAssets: 0.031ms
+		UnloadImportedAssets: 235.916ms
+		ReloadImportedAssets: 0.276ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.713ms
+		InitializingProgressBar: 0.007ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.754ms
+	PostProcessAllAssets: 5.809ms
+	Hotreload: 178.751ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.170ms
+	UnloadStreamsBegin: 1.418ms
+	PersistCurrentRevisions: 175.816ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 10.136ms
+
+Start importing Assets/Genesis/Character/Prefabs using Guid(5cefb403ef37803459753e297379937b) (DefaultImporter) -> (artifact id: '60b81adc12545d6814445dbb5de6bfed') in 1.4394757 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=187058b82c0d28848a19278e982633df): Total: 1.997 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=438 ms, native=1553 ms
+		Asset DB Callback time: managed=2 ms, native=2 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1478, non-scripts=12621
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.165ms
+	Scan: 17.471ms
+	OnSourceAssetsModified: 0.051ms
+	CategorizeAssetsWithTransientArtifact: 0.010ms
+	ProcessAssetsWithTransientArtifactChanges: 0.097ms
+	CategorizeAssets: 15.790ms
+	ImportOutOfDateAssets: 1821.398ms (0.767ms without children)
+		ImportManagerImport: 1818.026ms (0.465ms without children)
+			ImportInProcess: 1817.530ms
+			UpdateCategorizedAssets: 0.032ms
+		ReloadNativeAssets: 0.042ms
+		UnloadImportedAssets: 0.235ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.790ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.538ms
+	PostProcessAllAssets: 2.465ms
+	Hotreload: 2.545ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.830ms
+	UnloadStreamsBegin: 0.004ms
+	PersistCurrentRevisions: 0.439ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 135.917ms
+
+Opening scene 'Assets/Scenes/Sandbox/Sandbox.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Sandbox/Sandbox.unity'
+	Deserialize:            7938.356 ms
+	Integration:            64231.684 ms
+	Integration of assets:  1.580 ms
+	Thread Wait Time:       -1.562 ms
+	Total Operation Time:   72170.055 ms
+Unloading 852 unused Assets / (50.9 KB). Loaded Objects now: 8055.
+Memory consumption went from 213.1 MB to 213.0 MB.
+Total: 573.549900 ms (FindLiveObjects: 0.687000 ms CreateObjectMapping: 0.199200 ms MarkObjects: 572.155300 ms  DeleteObjects: 0.506600 ms)
+
+Start importing Assets/Genesis/Character/Prefabs/GenesisPlayer.prefab using Guid(2b9ca8d5e7f67db4eaf67980f131e1c4) (PrefabImporter) -> (artifact id: '799e21e4f6420c3f0d699b8af1d1f0c0') in 2.4419688 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=39ac78515c626024cb649c3cd65426f1): Total: 27.033 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=215 ms, native=12988 ms
+		Asset DB Callback time: managed=192 ms, native=13635 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1478, non-scripts=12622
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 5
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.194ms
+	Scan: 8211.346ms
+	OnSourceAssetsModified: 0.072ms
+	CategorizeAssetsWithTransientArtifact: 0.014ms
+	ProcessAssetsWithTransientArtifactChanges: 0.265ms
+	CategorizeAssets: 24.328ms
+	ImportOutOfDateAssets: 4747.345ms (0.921ms without children)
+		ImportManagerImport: 4743.810ms (1.650ms without children)
+			ImportInProcess: 4742.116ms
+			UpdateCategorizedAssets: 0.044ms
+		ReloadNativeAssets: 0.069ms
+		UnloadImportedAssets: 0.145ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.697ms
+		InitializingProgressBar: 0.007ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.696ms
+	PostProcessAllAssets: 2227.583ms
+	Hotreload: 11601.053ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.763ms
+	UnloadStreamsBegin: 0.461ms
+	PersistCurrentRevisions: 0.501ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 0.148ms
+	Untracked: 218.873ms
+
+Start importing Assets/Scenes/Sandbox/Sandbox.unity using Guid(9b6d7eb4574cced4d81ef14903f291ab) (DefaultImporter) -> (artifact id: '495b922e9c6c52a27bf024a226cb50b4') in 0.0067045 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=d0951ed771062e74c8ebc1c921bb2182): Total: 2.670 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2665 ms
+		Asset DB Callback time: managed=1 ms, native=2 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1478, non-scripts=12622
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 4
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.111ms
+	Scan: 11.391ms
+	OnSourceAssetsModified: 0.062ms
+	CategorizeAssetsWithTransientArtifact: 0.008ms
+	ProcessAssetsWithTransientArtifactChanges: 0.102ms
+	CategorizeAssets: 16.525ms
+	ImportOutOfDateAssets: 2630.112ms (0.709ms without children)
+		ImportManagerImport: 2626.275ms (1.349ms without children)
+			ImportInProcess: 2624.892ms
+			UpdateCategorizedAssets: 0.035ms
+		ReloadNativeAssets: 0.063ms
+		UnloadImportedAssets: 0.344ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.038ms
+		InitializingProgressBar: 0.008ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.672ms
+	PostProcessAllAssets: 2.168ms
+	Hotreload: 2.152ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.660ms
+	UnloadStreamsBegin: 0.061ms
+	PersistCurrentRevisions: 0.445ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 6.591ms
+
+Opening scene 'Assets/PolygonFantasyKingdom/Scenes/Demo_ExteriorOnly_Optimized.unity'
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Creating missing PlayerMovementInput component for PlayerController in player.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string)
+Genesis.Character.Editor.PlayerLocomotionMigration:RunBatch () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:46)
+
+[Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs line 46]
+
+Loaded scene 'Assets/PolygonFantasyKingdom/Scenes/Demo_ExteriorOnly_Optimized.unity'
+	Deserialize:            27376.840 ms
+	Integration:            1051604.750 ms
+	Integration of assets:  5.215 ms
+	Thread Wait Time:       -5.250 ms
+	Total Operation Time:   1078981.625 ms
+Unloading 285 unused Assets / (56.2 KB). Loaded Objects now: 67732.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 248.593400 ms (FindLiveObjects: 5.792800 ms CreateObjectMapping: 2.824300 ms MarkObjects: 12.342000 ms  DeleteObjects: 227.633200 ms)
+
+Start importing Assets/PolygonFantasyKingdom/Scenes/Demo_ExteriorOnly_Optimized.unity using Guid(5840491f9dde1b349bd9dde4b6f2d7b7) (DefaultImporter) -> (artifact id: '93bf5fe2c03266b0c9ad7125caac1525') in 0.2991569 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=26d5b82abe515af4ab351f6693ed4ad1): Total: 4.724 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3396 ms
+		Asset DB Callback time: managed=279 ms, native=1046 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1478, non-scripts=12622
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 4
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.198ms
+	Scan: 2192.107ms
+	OnSourceAssetsModified: 0.084ms
+	CategorizeAssetsWithTransientArtifact: 0.012ms
+	ProcessAssetsWithTransientArtifactChanges: 0.121ms
+	CategorizeAssets: 16.524ms
+	ImportOutOfDateAssets: 1092.246ms (0.655ms without children)
+		ImportManagerImport: 1087.352ms (1.486ms without children)
+			ImportInProcess: 1085.836ms
+			UpdateCategorizedAssets: 0.030ms
+		ReloadNativeAssets: 0.651ms
+		UnloadImportedAssets: 0.251ms
+		ReloadImportedAssets: 0.128ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.488ms
+		InitializingProgressBar: 0.007ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.712ms
+	PostProcessAllAssets: 1314.394ms
+	Hotreload: 12.440ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.996ms
+	UnloadStreamsBegin: 29.099ms
+	PersistCurrentRevisions: 0.663ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 64.623ms
+
+Opening scene 'Assets/Scenes/Sandbox/Sandbox.unity'
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Sandbox/Sandbox.unity'
+	Deserialize:            188.804 ms
+	Integration:            3219.370 ms
+	Integration of assets:  0.054 ms
+	Thread Wait Time:       -0.005 ms
+	Total Operation Time:   3408.223 ms
+Unloading 7866 unused Assets / (84.6 MB). Loaded Objects now: 8208.
+Memory consumption went from 391.7 MB to 307.1 MB.
+Total: 16.978000 ms (FindLiveObjects: 1.098000 ms CreateObjectMapping: 0.384000 ms MarkObjects: 7.593700 ms  DeleteObjects: 7.901300 ms)
+
+Opening scene 'Assets/PolygonFantasyKingdom/Scenes/Demo_ExteriorOnly_Optimized.unity'
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/PolygonFantasyKingdom/Scenes/Demo_ExteriorOnly_Optimized.unity'
+	Deserialize:            457.806 ms
+	Integration:            54505.027 ms
+	Integration of assets:  0.069 ms
+	Thread Wait Time:       -0.051 ms
+	Total Operation Time:   54962.852 ms
+Unloading 109 unused Assets / (32.3 KB). Loaded Objects now: 67881.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 20.254000 ms (FindLiveObjects: 6.462100 ms CreateObjectMapping: 2.497200 ms MarkObjects: 10.981900 ms  DeleteObjects: 0.311800 ms)
+
+[Genesis migration] Prefab, Avatar, clips, camera and NPC references PASS
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Genesis.Character.Editor.PlayerLocomotionMigration:ValidateAssets () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:223)
+Genesis.Character.Editor.PlayerLocomotionMigration:RunBatch () (at Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs:60)
+
+(Filename: Assets/Genesis/Character/Editor/PlayerLocomotionMigration.cs Line: 223)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] License Notification channel disconnected successfully.
+[Licensing::IpcConnector] License Client channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,1 @@
+{"name":"Genesis.Sandbox","rootNamespace":"Genesis.Sandbox","references":["Genesis.Core","Genesis.Character","Genesis.Skill","Genesis.Items","Genesis.Gods","Genesis.Authorities","Unity.ugui"]}

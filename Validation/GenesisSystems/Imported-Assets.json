@@ -1,0 +1,158 @@
+{
+    "assets": [
+        {
+            "path": "Assets/Synty/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_01.prefab",
+            "guid": "0c14f3ea30af4174ba288b3c2042f665",
+            "renderers": 1,
+            "colliders": 0,
+            "size": {
+                "x": 0.06396484375,
+                "y": 1.2425413131713868,
+                "z": 0.22265625
+            }
+        },
+        {
+            "path": "Assets/Synty/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_01.prefab",
+            "guid": "972d25f077480a44fb2de7fb9f6e52e9",
+            "renderers": 1,
+            "colliders": 0,
+            "size": {
+                "x": 0.6684103012084961,
+                "y": 0.9774383306503296,
+                "z": 0.2007284164428711
+            }
+        },
+        {
+            "path": "Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_01.prefab",
+            "guid": "f4bf1ea18c6356c4ba8c94bf3c351350",
+            "renderers": 1,
+            "colliders": 1,
+            "size": {
+                "x": 0.15423569083213807,
+                "y": 0.5308796167373657,
+                "z": 0.13357162475585938
+            }
+        },
+        {
+            "path": "Assets/PolygonDungeonRealms/Prefabs/Props/SM_Prop_Gold_Coins_01.prefab",
+            "guid": "3c7705f82f6412a458e41d88e5f90853",
+            "renderers": 1,
+            "colliders": 0,
+            "size": {
+                "x": 0.816331148147583,
+                "y": 0.06905554980039597,
+                "z": 0.7050585746765137
+            }
+        },
+        {
+            "path": "Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Crystal_01.prefab",
+            "guid": "c7f6725c93231294bb5c00d06b1997c9",
+            "renderers": 2,
+            "colliders": 1,
+            "size": {
+                "x": 0.08999389410018921,
+                "y": 0.18293529748916627,
+                "z": 0.07651244848966599
+            }
+        },
+        {
+            "path": "Assets/PolygonFantasyKingdom/Prefabs/Props/BattleGround/SM_Prop_Dummy_Armour_01.prefab",
+            "guid": "5037be3324f8a0c4a8aa6184a0560d33",
+            "renderers": 1,
+            "colliders": 1,
+            "size": {
+                "x": 0.7292883396148682,
+                "y": 1.7818725109100342,
+                "z": 0.5614715814590454
+            }
+        },
+        {
+            "path": "Assets/PolygonFantasyKingdom/Prefabs/Props/BattleGround/SM_Prop_Weapon_Rack_01.prefab",
+            "guid": "99f11df84afdff144846054a3ae5309f",
+            "renderers": 1,
+            "colliders": 1,
+            "size": {
+                "x": 2.20005464553833,
+                "y": 1.1640651226043702,
+                "z": 0.6592693328857422
+            }
+        },
+        {
+            "path": "Assets/PolygonFantasyKingdom/Prefabs/Props/SM_Prop_Statue_Angel_01.prefab",
+            "guid": "b5034dfe868f9044d9faf1f7d2f90d7a",
+            "renderers": 1,
+            "colliders": 2,
+            "size": {
+                "x": 2.4977402687072756,
+                "y": 3.112680673599243,
+                "z": 1.9942677021026612
+            }
+        },
+        {
+            "path": "Assets/PolygonFantasyKingdom/Prefabs/Props/SM_Prop_Statue_Plinth_01.prefab",
+            "guid": "e0c1f0be767df3742acce9a52cfa582a",
+            "renderers": 1,
+            "colliders": 2,
+            "size": {
+                "x": 1.441752314567566,
+                "y": 1.8721688985824586,
+                "z": 1.441752314567566
+            }
+        },
+        {
+            "path": "Assets/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Tree_Pine_Cluster_01.prefab",
+            "guid": "5d42ad4d961622744969e55de6f5270b",
+            "renderers": 1,
+            "colliders": 1,
+            "size": {
+                "x": 9.909608840942383,
+                "y": 23.192556381225587,
+                "z": 10.055712699890137
+            }
+        },
+        {
+            "path": "Assets/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Rock_01.prefab",
+            "guid": "818fbf9ffe287c5489125f1d37e02de5",
+            "renderers": 1,
+            "colliders": 1,
+            "size": {
+                "x": 0.3265497386455536,
+                "y": 0.26814308762550356,
+                "z": 0.35018032789230349
+            }
+        },
+        {
+            "path": "Assets/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Wall_DoorFrame_Single_01.prefab",
+            "guid": "795f6791166c1ad40adec674fe215169",
+            "renderers": 2,
+            "colliders": 4,
+            "size": {
+                "x": 5.002593994140625,
+                "y": 5.0,
+                "z": 0.6603124737739563
+            }
+        },
+        {
+            "path": "Assets/PolygonFantasyKingdom/Prefabs/Props/BattleGround/SM_Prop_Camp_Brazier_01.prefab",
+            "guid": "29fd7b3d4b3dabe4388eac10c6617909",
+            "renderers": 2,
+            "colliders": 1,
+            "size": {
+                "x": 0.5542550683021545,
+                "y": 0.5934206247329712,
+                "z": 0.5540002584457398
+            }
+        },
+        {
+            "path": "Assets/PolygonDungeonRealms/Prefabs/Props/SM_Prop_Banner_01.prefab",
+            "guid": "497fbb7c0af632c4fb0e68cbc3eee385",
+            "renderers": 1,
+            "colliders": 0,
+            "size": {
+                "x": 1.92593252658844,
+                "y": 10.231903076171875,
+                "z": 0.2394726574420929
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "playing": true,
+  "summary": "Sandbox Wanderer\nHuman\nStarting skills: Perception, Swordsmanship, Dodge\nUnique: Great Sage\nEquipment: None\nAllegiance: None\nReputation: Unknown",
+  "owned": 0,
+  "equipped": 0,
+  "skills": [
+    "perception",
+    "swordsmanship",
+    "dodge",
+    "great-sage"
+  ]
+}

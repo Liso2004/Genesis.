@@ -1,0 +1,69 @@
+{
+  "checks": [
+    {
+      "item": "training-chest",
+      "collected": true,
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "retained": true,
+      "feedback": "Training Chestpiece unequipped"
+    },
+    {
+      "item": "blackwood-shield",
+      "collected": true,
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "retained": true,
+      "feedback": "Blackwood Shield unequipped"
+    },
+    {
+      "item": "training-hands",
+      "collected": true,
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "retained": true,
+      "feedback": "Training Gloves unequipped"
+    },
+    {
+      "item": "iron-sword",
+      "collected": true,
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "retained": true,
+      "feedback": "Iron Sword unequipped"
+    },
+    {
+      "item": "training-legs",
+      "collected": true,
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "retained": true,
+      "feedback": "Training Legwear unequipped"
+    },
+    {
+      "item": "training-head",
+      "collected": true,
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "retained": true,
+      "feedback": "Training Helmet unequipped"
+    },
+    {
+      "item": "training-cape",
+      "collected": true,
+      "equipped": true,
+      "visible": true,
+      "unequipped": true,
+      "retained": true,
+      "feedback": "Training Cape unequipped"
+    }
+  ],
+  "identityRestored": true,
+  "controlsRestored": true
+}

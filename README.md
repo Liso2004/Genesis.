@@ -1,5 +1,7 @@
 ﻿# Project Genesis
 
+A small game I'm working on.
+
 Project Genesis is a Unity third-person action RPG prototype built around a persistent, living world. The project is currently focused on establishing its SDK and gameplay foundations through an existing playable Sandbox.
 
 ## Current stage
@@ -51,3 +53,4 @@ The checkpoint only covers the player and related Sandbox progress. It does not 
 - `Assets/Tests/` — Unity Play Mode tests.
 - `Assets/Docs/` — design documents and implementation reports.
 - `Validation/` — recorded test evidence and historical before-state snapshots.
+

@@ -1,5 +1,13 @@
 # Sandbox player checkpoints
 
+## Camera and sword-combat follow-up (2026-11-03)
+
+The player camera now starts in close third person, with a wider third-person view and first-person view available by cycling with **V**. First-person hides the player's renderers and restores their prior visibility when leaving that view. The camera keeps collision checks and adjusts framing while crouching. The Sandbox and optimized exterior demo scene camera settings were updated. `ThirdPersonCamera.FollowTarget` had a duplicate local `rotation` declaration removed after a compiler error.
+
+Sword-combat support has been added as code and imported animation assets. `PlayerSwordCombat` maps left click to a three-step light combo, **F** to a heavy attack, and held right mouse to block while a weapon is equipped. The Editor authoring command is **Genesis > Character > Setup Sword Combat Animations**. It creates/configures the masked Animator layer and wires the canonical player prefab. The command has not yet been run, so the Animator Controller and player prefab are not wired and the in-game animations are not yet verified. The setup script's entry-transition cleanup was corrected to use Unity's `AnimatorTransition` API after a compiler error; a fresh Unity compilation has not yet been confirmed.
+
+Current stage: camera POV implementation is in the project; sword-combat assets and setup code are present, with the one-time Unity Editor wiring and gameplay verification still to do. These follow-up changes have not been covered by the earlier checkpoint test results below.
+
 Implemented and validated through Unity MCP in the real Genesis workspace on 2026-09-28, Unity 6000.0.35f1. The existing `Assets/Scenes/Sandbox/Sandbox.unity` is configured and saved. No new gameplay scene, player controller, inventory authority or skill system was created.
 
 ## Use

@@ -25174,8 +25174,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1216221505}
-  distance: 5
-  height: 1.6
+  distance: 3.5
+  height: 1.65
+  viewMode: 0
+  povCycleKey: 118
+  wideViewExtraDistance: 1.7
+  closeViewShoulderOffset: 0.3
+  firstPersonEyeHeight: 1.62
+  firstPersonForwardOffset: 0.06
   crouchHeightReduction: 0.65
   mouseSensitivity: 3
   minPitch: -30

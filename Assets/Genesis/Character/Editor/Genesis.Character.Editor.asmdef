@@ -4,7 +4,9 @@
   "references": [
     "Genesis.Character",
     "Genesis.NPC",
-    "Genesis.Skill"
+    "Genesis.Skill",
+    "Genesis.Items",
+    "Genesis.Combat"
   ],
   "includePlatforms": [
     "Editor"

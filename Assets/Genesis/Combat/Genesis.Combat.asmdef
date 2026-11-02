@@ -1,0 +1,17 @@
+{
+  "name": "Genesis.Combat",
+  "rootNamespace": "Genesis.Combat",
+  "references": [
+    "Genesis.Character",
+    "Genesis.Items"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

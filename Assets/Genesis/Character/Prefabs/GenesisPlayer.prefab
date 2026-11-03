@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 4728093639010638620}
   - component: {fileID: 3751988193136533350}
   - component: {fileID: 4022789479747528831}
+  - component: {fileID: 4042408408996475404}
   m_Layer: 0
   m_Name: GenesisPlayer
   m_TagString: Untagged
@@ -320,6 +321,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   testPreset: {fileID: 11400000, guid: 3ac31fe7a127a0449898bc970805449d, type: 2}
   initialSummary: 
+--- !u!114 &4042408408996475404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638162425627079867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2b447ad3154ec9af5767a9c20e9a11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 4880082270163509250}
+  inventory: {fileID: 2776917800155106662}
+  movementInput: {fileID: 8544715218993839933}
+  heavyAttackKey: 102
 --- !u!1001 &4822035773523544062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -406,6 +423,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4982887039918172, guid: d47d5ac7dfc19da419169847c76d638b, type: 3}
   m_PrefabInstance: {fileID: 4822035773523544062}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &4880082270163509250 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95357365693442044, guid: d47d5ac7dfc19da419169847c76d638b, type: 3}
+  m_PrefabInstance: {fileID: 4822035773523544062}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5699668396931190903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -414,6 +436,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3638532725758673193}
     m_Modifications:
+    - target: {fileID: 1005600486873253969, guid: 5a730ca3b68c32a4aa21962042b8eb16, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'Toes_R'\n\tTransform 'Toes_R'\n\tFrom animation
+        clip 'A_Idle_Base_Sword'\n\tFrom animation clip 'A_Attack_LightCombo01A_FollowThrough_Sword'\n\tFrom
+        animation clip 'A_Attack_LightCombo01B_FollowThrough_Sword'\n\tFrom animation
+        clip 'A_Attack_LightCombo01C_FollowThrough_Sword'\n\tFrom animation clip
+        'A_Attack_HeavyStab01_FollowThrough_Sword'\n\tFrom animation clip 'A_Block_Begin_Sword'\n\tFrom
+        animation clip 'A_Block_Loop_Sword'\n\tFrom animation clip 'A_Block_End_Sword'"
+      objectReference: {fileID: 0}
     - target: {fileID: 2798084538074234887, guid: 5a730ca3b68c32a4aa21962042b8eb16, type: 3}
       propertyPath: m_Name
       value: GenesisModularHuman

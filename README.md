@@ -21,7 +21,7 @@ Generated Unity and IDE files such as `Library/`, `Temp/`, `Logs/`, `UserSetting
 
 - Third-person player movement, crouching, camera, and animation foundations.
 - Player camera POV cycling with **V**: close third person, wider third person, and first person.
-- Sword-combat animation assets and setup code. Run **Genesis > Character > Setup Sword Combat Animations** once in the Unity Editor to wire the Animator Controller and player prefab; gameplay setup is not yet verified.
+- Sword-combat Animator and player-prefab wiring applied with **Genesis > Character > Setup Sword Combat Animations**. Play Mode checks for the light combo, heavy attack, block, and armed/unequipped transitions are still needed.
 - Actor-owned inventory, equipment, modular appearance, and Sandbox inventory UI.
 - Data-driven character-creation workflow and a predefined Sandbox starting profile.
 - Partial skill progression, NPC perception, event, god-resonance, and authority systems.
@@ -39,7 +39,7 @@ The checkpoint only covers the player and related Sandbox progress. It does not 
 1. Define durable actor and spawn identity, assigned before actors initialize.
 2. Define a versioned world-state snapshot contract and the actors/simulation state it covers.
 3. Extend persistence beyond the Sandbox player and add migrations when the format evolves.
-4. Run and verify the sword-combat setup command in Unity, then continue toward the design-bible vertical slice. Full combat gameplay, full-world simulation/persistence, complete character-creation UI, and broad race visuals are not complete.
+4. Playtest the wired sword animations, then continue toward the design-bible vertical slice. Damage, health, and full combat gameplay, full-world simulation/persistence, complete character-creation UI, and broad race visuals are not complete.
 
 ## Developer handoff
 
